@@ -1,0 +1,8 @@
+# tools venv (.venv): placeholder voice, alignment, audio synthesis/mix
+kokoro-onnx
+faster-whisper
+huggingface_hub
+numpy
+scipy
+soundfile
+pyloudnorm

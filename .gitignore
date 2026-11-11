@@ -1,0 +1,14 @@
+# caches, environments, intermediates
+node_modules/
+.venv/
+.venv-chatterbox/
+.cache/
+__pycache__/
+*.pyc
+videos/*/build/
+*.part*.mp4
+frames/
+.DS_Store
+# private voice sample stays local unless you choose to commit it
+voice/reference.wav
+voice/reference.m4a

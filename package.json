@@ -1,0 +1,15 @@
+{
+  "name": "shorts",
+  "private": true,
+  "description": "Script-to-MP4 pipeline for animated, narrated low-poly YouTube Shorts",
+  "type": "module",
+  "scripts": {
+    "build": "./build.sh"
+  },
+  "dependencies": {
+    "three": "0.169.0"
+  },
+  "optionalDependencies": {
+    "playwright": "^1.48.0"
+  }
+}

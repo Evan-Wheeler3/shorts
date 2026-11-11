@@ -1,0 +1,218 @@
+{
+  "id": "alcatraz",
+  "title": "How to Escape from Alcatraz",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "tail_seconds": 1.3,
+  "thumbnail": { "shot": 8, "cue": "fences", "offset": 0.8 },
+  "voice": {
+    "pause_ms": 200,
+    "pause_after_shot_ms": { "7": 700 },
+    "kokoro": { "voice": "am_michael", "speed": 0.88 },
+    "chatterbox": { "exaggeration": 0.4, "cfg_weight": 0.5, "temperature": 0.7, "seed_base": 1962 }
+  },
+  "shots": [
+    {
+      "id": 1, "name": "HOOK", "target": 9,
+      "narration": "You wake up in 1962, locked inside a maximum security prison. Alcatraz. The one nobody escapes. Here's how you get out.",
+      "visual": "POV from a bunk: eyes open to a dim cell, bars, a single bulb. '1962' pops in. Pull back through the bars to fog and the island at night, settling on the cutaway cell-block diorama.",
+      "cues": {
+        "year": { "word": "1962", "offset": -0.1 },
+        "alcatraz": { "word": "alcatraz", "offset": -0.25 },
+        "how": { "word": "heres" }
+      },
+      "sfx": [
+        { "name": "foghorn", "at": "alcatraz", "offset": 0.5, "gain": -15 },
+        { "name": "pop", "at": "year", "gain": -16 },
+        { "name": "water", "at": "alcatraz", "offset": 0.3, "dur": 6, "gain": -24 }
+      ]
+    },
+    {
+      "id": 2, "name": "THE WALL", "step": 1, "target": 13,
+      "narration": "Step one: the wall. It's concrete, but decades of salt air have rotted it. And behind the air vent in your cell is an unguarded service corridor. So you dig around the vent. With a spoon from the mess hall.",
+      "visual": "Cutaway of the cell. Salt-air particles drift in and the concrete cracks. Push to the vent; behind it the empty corridor glows. A spoon scrapes chips from around the vent.",
+      "cues": {
+        "salt": { "word": "decades", "offset": -0.1 },
+        "vent": { "word": "behind", "offset": -0.2 },
+        "corridor": { "word": "unguarded" },
+        "dig": { "word": "dig", "offset": -0.15 },
+        "spoon": { "word": "spoon", "offset": -0.15 }
+      },
+      "sfx": [
+        { "name": "pop", "at": "start", "offset": 0.1, "gain": -16 },
+        { "name": "crack", "at": "salt", "offset": 0.9, "gain": -16 },
+        { "name": "scrape", "at": "dig", "until": "end", "gain": -13 },
+        { "name": "pop", "at": "spoon", "gain": -16 }
+      ]
+    },
+    {
+      "id": 3, "name": "THE NOISE", "step": 2, "target": 13,
+      "narration": "But scraping is loud. So you build a drill from a vacuum cleaner motor, and muffle it. Then cover whatever's left by playing accordion during daily music hour.",
+      "visual": "A vacuum cleaner motor and parts assemble into a drill, a housing snapping over it. A figure in the next cell plays accordion. Sound rings from the drill are absorbed by the accordion notes.",
+      "cues": {
+        "loud": { "word": "loud", "offset": -0.2 },
+        "build": { "word": "build", "offset": -0.1 },
+        "motor": { "word": "vacuum", "offset": -0.1 },
+        "muffle": { "word": "muffle", "offset": -0.1 },
+        "cover": { "word": "cover", "offset": -0.2 },
+        "accordion": { "word": "accordion", "offset": -0.3 }
+      },
+      "sfx": [
+        { "name": "pop", "at": "start", "offset": 0.1, "gain": -16 },
+        { "name": "scrape_loud", "at": "start", "until": "build", "gain": -9 },
+        { "name": "pop", "at": "build", "gain": -16 },
+        { "name": "pop", "at": "motor", "gain": -16 },
+        { "name": "drill", "at": "motor", "offset": 0.9, "until": "muffle", "gain": -12 },
+        { "name": "snap", "at": "muffle", "offset": 0.15, "gain": -12 },
+        { "name": "drill_muffled", "at": "muffle", "offset": 0.2, "until": "end", "gain": -15 },
+        { "name": "accordion", "at": "accordion", "until": "end", "gain": -14 }
+      ]
+    },
+    {
+      "id": 4, "name": "THE HOLE", "step": 3, "target": 11,
+      "narration": "But now there's a hole in your wall. So you make a fake vent cover from painted cardboard. In dim light, the guards see a wall.",
+      "visual": "A cardboard grille is painted, slotted over the hole, and blends in. A guard's flashlight cone sweeps across it (red tint), passes, and the guard walks on.",
+      "cues": {
+        "make": { "word": "make", "offset": -0.15 },
+        "paint": { "word": "painted", "offset": -0.25 },
+        "slot": { "word": "cardboard", "offset": 0.25 },
+        "dim": { "word": "dim", "offset": -0.4 },
+        "see": { "word": "see" }
+      },
+      "sfx": [
+        { "name": "pop", "at": "start", "offset": 0.1, "gain": -16 },
+        { "name": "rustle", "at": "make", "dur": 1.4, "gain": -12 },
+        { "name": "brush", "at": "paint", "dur": 0.9, "gain": -14 },
+        { "name": "snap", "at": "slot", "offset": 0.45, "gain": -14 },
+        { "name": "footsteps", "at": "dim", "offset": 0.1, "until": "end", "gain": -15 },
+        { "name": "tension", "at": "dim", "offset": 0.5, "dur": 3.0, "gain": -15 }
+      ]
+    },
+    {
+      "id": 5, "name": "THE RAFT", "step": 4, "target": 14,
+      "narration": "Now you can reach the corridor. But you can't swim San Francisco Bay. So you collect raincoats. More than fifty. You glue them into a raft, and seal the seams with heat from the steam pipes.",
+      "visual": "Raincoats pile up in a hidden workshop atop the cell block. Seams are glued and sealed with steam from a pipe. A rubber raft takes shape and '50+' pops in.",
+      "cues": {
+        "swim": { "word": "but", "offset": -0.1 },
+        "collect": { "word": "collect", "offset": -0.2 },
+        "fifty": { "word": "fifty", "offset": -0.15 },
+        "glue": { "word": "glue", "offset": -0.2 },
+        "seal": { "word": "seal", "offset": -0.2 }
+      },
+      "sfx": [
+        { "name": "pop", "at": "start", "offset": 0.1, "gain": -16 },
+        { "name": "water", "at": "swim", "dur": 3.0, "gain": -20 },
+        { "name": "rustle", "at": "collect", "dur": 2.4, "gain": -13 },
+        { "name": "pop", "at": "fifty", "gain": -14 },
+        { "name": "squeak", "at": "glue", "offset": 0.3, "gain": -14 },
+        { "name": "squeak", "at": "glue", "offset": 1.2, "gain": -16 },
+        { "name": "steam", "at": "seal", "until": "end", "gain": -13 }
+      ]
+    },
+    {
+      "id": 6, "name": "THE DECOY", "step": 5, "target": 14,
+      "narration": "But when you slip out at night, guards check your bed. So you sculpt a head from plaster, soap, and toilet paper. Real hair from the barber shop. In the dark, it looks asleep.",
+      "visual": "A low-poly head is built: plaster, then soap and paper layers, flesh-tone paint, hair. It is placed on a pillow under a blanket. A guard glances in and walks on.",
+      "cues": {
+        "check": { "word": "guards", "offset": -0.2 },
+        "sculpt": { "word": "so", "offset": -0.1 },
+        "plaster": { "word": "plaster", "offset": -0.15 },
+        "soap": { "word": "soap", "offset": -0.15 },
+        "paper": { "word": "toilet", "offset": -0.15 },
+        "hair": { "word": "hair", "offset": -0.25 },
+        "dark": { "word": "in", "nth": -1, "offset": -0.3 },
+        "asleep": { "word": "asleep" }
+      },
+      "sfx": [
+        { "name": "pop", "at": "start", "offset": 0.1, "gain": -16 },
+        { "name": "tension", "at": "check", "dur": 2.0, "gain": -16 },
+        { "name": "pop", "at": "plaster", "gain": -15 },
+        { "name": "pop", "at": "soap", "gain": -16 },
+        { "name": "rustle", "at": "paper", "dur": 0.9, "gain": -14 },
+        { "name": "brush", "at": "paper", "offset": 0.95, "dur": 0.7, "gain": -15 },
+        { "name": "pop", "at": "hair", "gain": -15 },
+        { "name": "footsteps", "at": "dark", "offset": 0.3, "until": "end", "gain": -16 }
+      ]
+    },
+    {
+      "id": 7, "name": "THE NIGHT", "target": 16,
+      "narration": "June 11th. Four men plan to go. But one of them, Allen West, is stuck. The cement he used to hide his hole has hardened. The others can't wait. They leave without him.",
+      "visual": "Night. Three figures slip through their vents into the corridor. A fourth (West's accent color) strains at his vent and cannot fit. The others look back, hesitate, and move on. Hold a beat on West alone.",
+      "cues": {
+        "four": { "word": "four", "offset": -0.2 },
+        "west": { "word": "but", "offset": -0.1 },
+        "cement": { "word": "cement", "offset": -0.2 },
+        "wait": { "word": "others", "offset": -0.3 },
+        "leave": { "word": "they", "offset": -0.2 }
+      },
+      "sfx": [
+        { "name": "foghorn", "at": "start", "offset": 0.0, "gain": -18 },
+        { "name": "rustle", "at": "four", "dur": 2.2, "gain": -16 },
+        { "name": "strain", "at": "west", "offset": 0.8, "dur": 2.5, "gain": -15 },
+        { "name": "crack", "at": "cement", "offset": 0.4, "gain": -17 },
+        { "name": "pipe_clang", "at": "leave", "offset": 0.5, "gain": -17 },
+        { "name": "pipe_clang", "at": "leave", "offset": 1.3, "gain": -20 }
+      ]
+    },
+    {
+      "id": 8, "name": "THE ROUTE", "target": 18,
+      "narration": "Up the pipes. Onto the roof. Over the fences. Down to a shoreline the searchlights can't see. They inflate the raft and paddle out into 54 degree water, aiming for Angel Island.",
+      "visual": "Fast vertical cutaway scroll: pipes, roof fan, fences, a dark shoreline between searchlight cones. Inflate the raft, push off. Wide shot of a tiny raft on black water, '54°F' pops in, Angel Island glows faintly far away.",
+      "cues": {
+        "roof": { "word": "onto", "offset": -0.15 },
+        "fences": { "word": "over", "offset": -0.15 },
+        "shore": { "word": "down", "offset": -0.15 },
+        "inflate": { "word": "they", "offset": -0.1 },
+        "paddle": { "word": "paddle", "offset": -0.25 },
+        "temp": { "word": "54", "offset": -0.15 },
+        "angel": { "word": "aiming", "offset": -0.1 }
+      },
+      "sfx": [
+        { "name": "pipe_clang", "at": "start", "offset": 0.15, "gain": -13 },
+        { "name": "pipe_clang", "at": "start", "offset": 0.65, "gain": -15 },
+        { "name": "pipe_clang", "at": "start", "offset": 1.1, "gain": -16 },
+        { "name": "fan_creak", "at": "roof", "offset": 0.0, "gain": -12 },
+        { "name": "fence_rattle", "at": "fences", "offset": 0.1, "dur": 1.6, "gain": -12 },
+        { "name": "water", "at": "shore", "until": "end", "gain": -17 },
+        { "name": "squeak", "at": "inflate", "offset": 0.3, "gain": -14 },
+        { "name": "inflate", "at": "inflate", "offset": 0.2, "dur": 1.4, "gain": -14 },
+        { "name": "paddle", "at": "paddle", "offset": 0.4, "until": "end", "gain": -15 },
+        { "name": "pop", "at": "temp", "gain": -15 },
+        { "name": "foghorn", "at": "angel", "offset": 0.2, "gain": -17 }
+      ]
+    },
+    {
+      "id": 9, "name": "DAWN", "target": 14,
+      "narration": "At dawn, the guards find three men sleeping. Until they touch one. A paddle turns up. Scraps of a raincoat raft. The FBI searches for years.",
+      "visual": "Warm morning light. A guard pokes a figure in a bunk and the head rolls off and bounces. Cut to a paddle floating on calm water, then drifting rubber scraps. A fast montage of search boats and a map-style sweep.",
+      "cues": {
+        "until": { "word": "until", "offset": -0.1 },
+        "touch": { "word": "touch", "offset": 0.05 },
+        "paddle": { "word": "a", "offset": -0.25 },
+        "scraps": { "word": "scraps", "offset": -0.25 },
+        "fbi": { "word": "the", "nth": -1, "offset": -0.25 }
+      },
+      "sfx": [
+        { "name": "thud_roll", "at": "touch", "offset": 0.55, "gain": -9 },
+        { "name": "water", "at": "paddle", "until": "fbi", "gain": -15 },
+        { "name": "boat", "at": "fbi", "until": "end", "gain": -17 },
+        { "name": "sweep", "at": "fbi", "offset": 0.2, "dur": 2.4, "gain": -18 }
+      ]
+    },
+    {
+      "id": 10, "name": "THE ENDING", "target": 10,
+      "narration": "In 1979, the FBI closed the case, presuming them dead. But no confirmed body was ever found. Maybe they drowned. Maybe they made it.",
+      "visual": "Slow pull back from the empty bay at dawn. The raft's wake fades into the water. A lone gull. Fade to black on the last word.",
+      "cues": {
+        "gull": { "word": "but", "offset": 0.0 },
+        "fade": { "word": "made", "offset": 0.0 }
+      },
+      "sfx": [
+        { "name": "water", "at": "start", "until": "end", "gain": -17 },
+        { "name": "gull", "at": "gull", "offset": 0.6, "gain": -20 },
+        { "name": "foghorn", "at": "start", "offset": 2.2, "gain": -21 }
+      ]
+    }
+  ]
+}

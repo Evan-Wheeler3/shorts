@@ -1,0 +1,26 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#000;overflow:hidden}canvas{display:block}</style>
+<script type="importmap">{"imports":{"three":"/node_modules/three/build/three.module.js","three/addons/":"/node_modules/three/examples/jsm/"}}</script>
+</head><body><canvas id="c"></canvas>
+<script type="module">
+import { createStage } from '/shared/web/stage.js';
+const q = new URLSearchParams(location.search);
+const vid = q.get('video'), scale = parseFloat(q.get('scale') || '1'), ao = q.get('ao') !== '0';
+try {
+  const list = await (await fetch(`/videos/${vid}/output/shotlist.retimed.json`)).json();
+  const stage = await createStage({ canvas: document.getElementById('c'), W: list.width, H: list.height, scale, ao });
+  const mod = await import(`/videos/${vid}/scene.js`);
+  const video = await mod.create(stage, list);
+  window.renderFrame = (f) => {
+    let shot = list.shots[list.shots.length - 1];
+    for (const s of list.shots) if (f >= s.start_frame && f < s.start_frame + s.frames) { shot = s; break; }
+    const t = (f - shot.start_frame) / list.fps;
+    video.update(shot, t, f / list.fps);
+    stage.overlay.step(shot, t);
+    stage.render();
+  };
+  window.grab = (f, type = 'image/jpeg', q = 0.95) => { window.renderFrame(f); return document.getElementById('c').toDataURL(type, q); };
+  window.ready = true;
+} catch (e) { window.failed = String(e && e.stack || e); console.error(e); }
+</script></body></html>

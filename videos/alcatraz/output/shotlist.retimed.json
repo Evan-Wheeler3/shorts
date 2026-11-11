@@ -1,0 +1,2134 @@
+{
+ "id": "alcatraz",
+ "thumbnail_frame": 2673,
+ "title": "How to Escape from Alcatraz",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "duration": 124.1,
+ "frames": 3723,
+ "narration_duration": 122.81,
+ "shots": [
+  {
+   "id": 1,
+   "name": "HOOK",
+   "step": null,
+   "start": 0.0,
+   "end": 11.167,
+   "duration": 11.167,
+   "start_frame": 0,
+   "frames": 335,
+   "target": 9,
+   "narration": "You wake up in 1962, locked inside a maximum security prison. Alcatraz. The one nobody escapes. Here's how you get out.",
+   "visual": "POV from a bunk: eyes open to a dim cell, bars, a single bulb. '1962' pops in. Pull back through the bars to fog and the island at night, settling on the cutaway cell-block diorama.",
+   "cues": {
+    "start": 0.0,
+    "end": 11.167,
+    "year": 0.94,
+    "alcatraz": 6.37,
+    "how": 9.8
+   },
+   "sfx": [
+    {
+     "name": "foghorn",
+     "t": 6.87,
+     "dur": null,
+     "gain": -15
+    },
+    {
+     "name": "pop",
+     "t": 0.94,
+     "dur": null,
+     "gain": -16
+    },
+    {
+     "name": "water",
+     "t": 6.67,
+     "dur": 6,
+     "gain": -24
+    }
+   ],
+   "words": [
+    {
+     "text": "You",
+     "start": 0.0,
+     "end": 0.4
+    },
+    {
+     "text": "wake",
+     "start": 0.4,
+     "end": 0.62
+    },
+    {
+     "text": "up",
+     "start": 0.62,
+     "end": 0.86
+    },
+    {
+     "text": "in",
+     "start": 0.86,
+     "end": 1.04
+    },
+    {
+     "text": "1962,",
+     "start": 1.04,
+     "end": 2.16
+    },
+    {
+     "text": "locked",
+     "start": 3.14,
+     "end": 3.28
+    },
+    {
+     "text": "inside",
+     "start": 3.28,
+     "end": 3.8
+    },
+    {
+     "text": "a",
+     "start": 3.8,
+     "end": 4.06
+    },
+    {
+     "text": "maximum",
+     "start": 4.06,
+     "end": 4.58
+    },
+    {
+     "text": "security",
+     "start": 4.58,
+     "end": 5.22
+    },
+    {
+     "text": "prison.",
+     "start": 5.22,
+     "end": 5.88
+    },
+    {
+     "text": "Alcatraz.",
+     "start": 6.62,
+     "end": 7.26
+    },
+    {
+     "text": "The",
+     "start": 7.98,
+     "end": 8.04
+    },
+    {
+     "text": "one",
+     "start": 8.04,
+     "end": 8.22
+    },
+    {
+     "text": "nobody",
+     "start": 8.22,
+     "end": 8.66
+    },
+    {
+     "text": "escapes.",
+     "start": 8.66,
+     "end": 9.28
+    },
+    {
+     "text": "Here's",
+     "start": 9.8,
+     "end": 10.14
+    },
+    {
+     "text": "how",
+     "start": 10.14,
+     "end": 10.32
+    },
+    {
+     "text": "you",
+     "start": 10.32,
+     "end": 10.52
+    },
+    {
+     "text": "get",
+     "start": 10.52,
+     "end": 10.68
+    },
+    {
+     "text": "out.",
+     "start": 10.68,
+     "end": 11.0
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name": "THE WALL",
+   "step": 1,
+   "start": 11.167,
+   "end": 25.8,
+   "duration": 14.633,
+   "start_frame": 335,
+   "frames": 439,
+   "target": 13,
+   "narration": "Step one: the wall. It's concrete, but decades of salt air have rotted it. And behind the air vent in your cell is an unguarded service corridor. So you dig around the vent. With a spoon from the mess hall.",
+   "visual": "Cutaway of the cell. Salt-air particles drift in and the concrete cracks. Push to the vent; behind it the empty corridor glows. A spoon scrapes chips from around the vent.",
+   "cues": {
+    "start": 0.0,
+    "end": 14.633,
+    "salt": 2.813,
+    "vent": 5.693,
+    "corridor": 8.293,
+    "dig": 10.923,
+    "spoon": 13.003
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "t": 11.267,
+     "dur": null,
+     "gain": -16
+    },
+    {
+     "name": "crack",
+     "t": 14.88,
+     "dur": null,
+     "gain": -16
+    },
+    {
+     "name": "scrape",
+     "t": 22.09,
+     "dur": 3.71,
+     "gain": -13
+    },
+    {
+     "name": "pop",
+     "t": 24.17,
+     "dur": null,
+     "gain": -16
+    }
+   ],
+   "words": [
+    {
+     "text": "Step",
+     "start": 0.173,
+     "end": 0.333
+    },
+    {
+     "text": "one:",
+     "start": 0.333,
+     "end": 0.633
+    },
+    {
+     "text": "the",
+     "start": 0.773,
+     "end": 0.853
+    },
+    {
+     "text": "wall.",
+     "start": 0.853,
+     "end": 1.233
+    },
+    {
+     "text": "It's",
+     "start": 1.773,
+     "end": 1.993
+    },
+    {
+     "text": "concrete,",
+     "start": 1.993,
+     "end": 2.573
+    },
+    {
+     "text": "but",
+     "start": 2.773,
+     "end": 2.913
+    },
+    {
+     "text": "decades",
+     "start": 2.913,
+     "end": 3.373
+    },
+    {
+     "text": "of",
+     "start": 3.373,
+     "end": 3.713
+    },
+    {
+     "text": "salt",
+     "start": 3.713,
+     "end": 3.973
+    },
+    {
+     "text": "air",
+     "start": 3.973,
+     "end": 4.293
+    },
+    {
+     "text": "have",
+     "start": 4.293,
+     "end": 4.533
+    },
+    {
+     "text": "rotted",
+     "start": 4.533,
+     "end": 4.973
+    },
+    {
+     "text": "it.",
+     "start": 4.973,
+     "end": 5.413
+    },
+    {
+     "text": "And",
+     "start": 5.713,
+     "end": 5.893
+    },
+    {
+     "text": "behind",
+     "start": 5.893,
+     "end": 6.253
+    },
+    {
+     "text": "the",
+     "start": 6.253,
+     "end": 6.493
+    },
+    {
+     "text": "air",
+     "start": 6.493,
+     "end": 6.753
+    },
+    {
+     "text": "vent",
+     "start": 6.753,
+     "end": 7.073
+    },
+    {
+     "text": "in",
+     "start": 7.073,
+     "end": 7.273
+    },
+    {
+     "text": "your",
+     "start": 7.273,
+     "end": 7.413
+    },
+    {
+     "text": "cell",
+     "start": 7.413,
+     "end": 7.833
+    },
+    {
+     "text": "is",
+     "start": 7.833,
+     "end": 8.093
+    },
+    {
+     "text": "an",
+     "start": 8.093,
+     "end": 8.293
+    },
+    {
+     "text": "unguarded",
+     "start": 8.293,
+     "end": 9.033
+    },
+    {
+     "text": "service",
+     "start": 9.033,
+     "end": 9.533
+    },
+    {
+     "text": "corridor.",
+     "start": 9.533,
+     "end": 10.033
+    },
+    {
+     "text": "So",
+     "start": 10.653,
+     "end": 10.893
+    },
+    {
+     "text": "you",
+     "start": 10.893,
+     "end": 11.073
+    },
+    {
+     "text": "dig",
+     "start": 11.073,
+     "end": 11.353
+    },
+    {
+     "text": "around",
+     "start": 11.353,
+     "end": 11.693
+    },
+    {
+     "text": "the",
+     "start": 11.693,
+     "end": 11.913
+    },
+    {
+     "text": "vent.",
+     "start": 11.913,
+     "end": 12.253
+    },
+    {
+     "text": "With",
+     "start": 12.753,
+     "end": 12.953
+    },
+    {
+     "text": "a",
+     "start": 12.953,
+     "end": 13.153
+    },
+    {
+     "text": "spoon",
+     "start": 13.153,
+     "end": 13.513
+    },
+    {
+     "text": "from",
+     "start": 13.513,
+     "end": 13.813
+    },
+    {
+     "text": "the",
+     "start": 13.813,
+     "end": 13.973
+    },
+    {
+     "text": "mess",
+     "start": 13.973,
+     "end": 14.173
+    },
+    {
+     "text": "hall.",
+     "start": 14.173,
+     "end": 14.633
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "THE NOISE",
+   "step": 2,
+   "start": 25.8,
+   "end": 37.5,
+   "duration": 11.7,
+   "start_frame": 774,
+   "frames": 351,
+   "target": 13,
+   "narration": "But scraping is loud. So you build a drill from a vacuum cleaner motor, and muffle it. Then cover whatever's left by playing accordion during daily music hour.",
+   "visual": "A vacuum cleaner motor and parts assemble into a drill, a housing snapping over it. A figure in the next cell plays accordion. Sound rings from the drill are absorbed by the accordion notes.",
+   "cues": {
+    "start": 0.0,
+    "end": 11.7,
+    "loud": 0.98,
+    "build": 2.54,
+    "motor": 3.72,
+    "muffle": 5.54,
+    "cover": 6.9,
+    "accordion": 9.02
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "t": 25.9,
+     "dur": null,
+     "gain": -16
+    },
+    {
+     "name": "scrape_loud",
+     "t": 25.8,
+     "dur": 2.54,
+     "gain": -9
+    },
+    {
+     "name": "pop",
+     "t": 28.34,
+     "dur": null,
+     "gain": -16
+    },
+    {
+     "name": "pop",
+     "t": 29.52,
+     "dur": null,
+     "gain": -16
+    },
+    {
+     "name": "drill",
+     "t": 30.42,
+     "dur": 0.92,
+     "gain": -12
+    },
+    {
+     "name": "snap",
+     "t": 31.49,
+     "dur": null,
+     "gain": -12
+    },
+    {
+     "name": "drill_muffled",
+     "t": 31.54,
+     "dur": 5.96,
+     "gain": -15
+    },
+    {
+     "name": "accordion",
+     "t": 34.82,
+     "dur": 2.68,
+     "gain": -14
+    }
+   ],
+   "words": [
+    {
+     "text": "But",
+     "start": 0.0,
+     "end": 0.42
+    },
+    {
+     "text": "scraping",
+     "start": 0.42,
+     "end": 0.8
+    },
+    {
+     "text": "is",
+     "start": 0.8,
+     "end": 1.18
+    },
+    {
+     "text": "loud.",
+     "start": 1.18,
+     "end": 1.64
+    },
+    {
+     "text": "So",
+     "start": 2.42,
+     "end": 2.47
+    },
+    {
+     "text": "you",
+     "start": 2.46,
+     "end": 2.64
+    },
+    {
+     "text": "build",
+     "start": 2.64,
+     "end": 2.86
+    },
+    {
+     "text": "a",
+     "start": 2.86,
+     "end": 3.04
+    },
+    {
+     "text": "drill",
+     "start": 3.04,
+     "end": 3.34
+    },
+    {
+     "text": "from",
+     "start": 3.34,
+     "end": 3.62
+    },
+    {
+     "text": "a",
+     "start": 3.62,
+     "end": 3.82
+    },
+    {
+     "text": "vacuum",
+     "start": 3.82,
+     "end": 4.24
+    },
+    {
+     "text": "cleaner",
+     "start": 4.24,
+     "end": 4.72
+    },
+    {
+     "text": "motor,",
+     "start": 4.72,
+     "end": 5.14
+    },
+    {
+     "text": "and",
+     "start": 5.14,
+     "end": 5.64
+    },
+    {
+     "text": "muffle",
+     "start": 5.64,
+     "end": 5.98
+    },
+    {
+     "text": "it.",
+     "start": 5.98,
+     "end": 6.4
+    },
+    {
+     "text": "Then",
+     "start": 6.8,
+     "end": 7.1
+    },
+    {
+     "text": "cover",
+     "start": 7.1,
+     "end": 7.54
+    },
+    {
+     "text": "whatever's",
+     "start": 7.54,
+     "end": 8.38
+    },
+    {
+     "text": "left",
+     "start": 8.38,
+     "end": 8.62
+    },
+    {
+     "text": "by",
+     "start": 8.62,
+     "end": 8.92
+    },
+    {
+     "text": "playing",
+     "start": 8.92,
+     "end": 9.32
+    },
+    {
+     "text": "accordion",
+     "start": 9.32,
+     "end": 10.08
+    },
+    {
+     "text": "during",
+     "start": 10.08,
+     "end": 10.32
+    },
+    {
+     "text": "daily",
+     "start": 10.32,
+     "end": 10.72
+    },
+    {
+     "text": "music",
+     "start": 10.72,
+     "end": 11.12
+    },
+    {
+     "text": "hour.",
+     "start": 11.12,
+     "end": 11.54
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "THE HOLE",
+   "step": 3,
+   "start": 37.5,
+   "end": 46.533,
+   "duration": 9.033,
+   "start_frame": 1125,
+   "frames": 271,
+   "target": 11,
+   "narration": "But now there's a hole in your wall. So you make a fake vent cover from painted cardboard. In dim light, the guards see a wall.",
+   "visual": "A cardboard grille is painted, slotted over the hole, and blends in. A guard's flashlight cone sweeps across it (red tint), passes, and the guard walks on.",
+   "cues": {
+    "start": 0.0,
+    "end": 9.033,
+    "make": 2.89,
+    "paint": 4.51,
+    "slot": 5.47,
+    "dim": 6.34,
+    "see": 7.96
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "t": 37.6,
+     "dur": null,
+     "gain": -16
+    },
+    {
+     "name": "rustle",
+     "t": 40.39,
+     "dur": 1.4,
+     "gain": -12
+    },
+    {
+     "name": "brush",
+     "t": 42.01,
+     "dur": 0.9,
+     "gain": -14
+    },
+    {
+     "name": "snap",
+     "t": 43.42,
+     "dur": null,
+     "gain": -14
+    },
+    {
+     "name": "footsteps",
+     "t": 43.94,
+     "dur": 2.593,
+     "gain": -15
+    },
+    {
+     "name": "tension",
+     "t": 44.34,
+     "dur": 3.0,
+     "gain": -15
+    }
+   ],
+   "words": [
+    {
+     "text": "But",
+     "start": 0.14,
+     "end": 0.26
+    },
+    {
+     "text": "now",
+     "start": 0.26,
+     "end": 0.56
+    },
+    {
+     "text": "there's",
+     "start": 0.56,
+     "end": 0.92
+    },
+    {
+     "text": "a",
+     "start": 0.92,
+     "end": 1.04
+    },
+    {
+     "text": "hole",
+     "start": 1.04,
+     "end": 1.32
+    },
+    {
+     "text": "in",
+     "start": 1.32,
+     "end": 1.56
+    },
+    {
+     "text": "your",
+     "start": 1.56,
+     "end": 1.74
+    },
+    {
+     "text": "wall.",
+     "start": 1.74,
+     "end": 2.12
+    },
+    {
+     "text": "So",
+     "start": 2.68,
+     "end": 2.9
+    },
+    {
+     "text": "you",
+     "start": 2.9,
+     "end": 3.04
+    },
+    {
+     "text": "make",
+     "start": 3.04,
+     "end": 3.24
+    },
+    {
+     "text": "a",
+     "start": 3.24,
+     "end": 3.4
+    },
+    {
+     "text": "fake",
+     "start": 3.4,
+     "end": 3.76
+    },
+    {
+     "text": "vent",
+     "start": 3.76,
+     "end": 4.14
+    },
+    {
+     "text": "cover",
+     "start": 4.14,
+     "end": 4.48
+    },
+    {
+     "text": "from",
+     "start": 4.48,
+     "end": 4.76
+    },
+    {
+     "text": "painted",
+     "start": 4.76,
+     "end": 5.22
+    },
+    {
+     "text": "cardboard.",
+     "start": 5.22,
+     "end": 5.88
+    },
+    {
+     "text": "In",
+     "start": 6.48,
+     "end": 6.74
+    },
+    {
+     "text": "dim",
+     "start": 6.74,
+     "end": 6.96
+    },
+    {
+     "text": "light,",
+     "start": 6.96,
+     "end": 7.38
+    },
+    {
+     "text": "the",
+     "start": 7.38,
+     "end": 7.64
+    },
+    {
+     "text": "guards",
+     "start": 7.64,
+     "end": 7.96
+    },
+    {
+     "text": "see",
+     "start": 7.96,
+     "end": 8.32
+    },
+    {
+     "text": "a",
+     "start": 8.32,
+     "end": 8.5
+    },
+    {
+     "text": "wall.",
+     "start": 8.5,
+     "end": 8.86
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "THE RAFT",
+   "step": 4,
+   "start": 46.533,
+   "end": 60.267,
+   "duration": 13.733,
+   "start_frame": 1396,
+   "frames": 412,
+   "target": 14,
+   "narration": "Now you can reach the corridor. But you can't swim San Francisco Bay. So you collect raincoats. More than fifty. You glue them into a raft, and seal the seams with heat from the steam pipes.",
+   "visual": "Raincoats pile up in a hidden workshop atop the cell block. Seams are glued and sealed with steam from a pipe. A rubber raft takes shape and '50+' pops in.",
+   "cues": {
+    "start": 0.0,
+    "end": 13.733,
+    "swim": 2.227,
+    "collect": 5.487,
+    "fifty": 7.617,
+    "glue": 8.867,
+    "seal": 10.467
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "t": 46.633,
+     "dur": null,
+     "gain": -16
+    },
+    {
+     "name": "water",
+     "t": 48.76,
+     "dur": 3.0,
+     "gain": -20
+    },
+    {
+     "name": "rustle",
+     "t": 52.02,
+     "dur": 2.4,
+     "gain": -13
+    },
+    {
+     "name": "pop",
+     "t": 54.15,
+     "dur": null,
+     "gain": -14
+    },
+    {
+     "name": "squeak",
+     "t": 55.7,
+     "dur": null,
+     "gain": -14
+    },
+    {
+     "name": "squeak",
+     "t": 56.6,
+     "dur": null,
+     "gain": -16
+    },
+    {
+     "name": "steam",
+     "t": 57.0,
+     "dur": 3.266,
+     "gain": -13
+    }
+   ],
+   "words": [
+    {
+     "text": "Now",
+     "start": 0.147,
+     "end": 0.447
+    },
+    {
+     "text": "you",
+     "start": 0.447,
+     "end": 0.667
+    },
+    {
+     "text": "can",
+     "start": 0.667,
+     "end": 0.827
+    },
+    {
+     "text": "reach",
+     "start": 0.827,
+     "end": 1.067
+    },
+    {
+     "text": "the",
+     "start": 1.067,
+     "end": 1.287
+    },
+    {
+     "text": "corridor.",
+     "start": 1.287,
+     "end": 1.787
+    },
+    {
+     "text": "But",
+     "start": 2.327,
+     "end": 2.547
+    },
+    {
+     "text": "you",
+     "start": 2.547,
+     "end": 2.687
+    },
+    {
+     "text": "can't",
+     "start": 2.687,
+     "end": 3.107
+    },
+    {
+     "text": "swim",
+     "start": 3.107,
+     "end": 3.407
+    },
+    {
+     "text": "San",
+     "start": 3.407,
+     "end": 3.727
+    },
+    {
+     "text": "Francisco",
+     "start": 3.727,
+     "end": 4.307
+    },
+    {
+     "text": "Bay.",
+     "start": 4.307,
+     "end": 4.767
+    },
+    {
+     "text": "So",
+     "start": 5.267,
+     "end": 5.527
+    },
+    {
+     "text": "you",
+     "start": 5.527,
+     "end": 5.687
+    },
+    {
+     "text": "collect",
+     "start": 5.687,
+     "end": 5.987
+    },
+    {
+     "text": "raincoats.",
+     "start": 5.987,
+     "end": 6.927
+    },
+    {
+     "text": "More",
+     "start": 7.467,
+     "end": 7.547
+    },
+    {
+     "text": "than",
+     "start": 7.547,
+     "end": 7.767
+    },
+    {
+     "text": "fifty.",
+     "start": 7.767,
+     "end": 8.047
+    },
+    {
+     "text": "You",
+     "start": 8.047,
+     "end": 9.067
+    },
+    {
+     "text": "glue",
+     "start": 9.067,
+     "end": 9.327
+    },
+    {
+     "text": "them",
+     "start": 9.327,
+     "end": 9.527
+    },
+    {
+     "text": "into",
+     "start": 9.527,
+     "end": 9.767
+    },
+    {
+     "text": "a",
+     "start": 9.767,
+     "end": 9.987
+    },
+    {
+     "text": "raft,",
+     "start": 9.987,
+     "end": 10.327
+    },
+    {
+     "text": "and",
+     "start": 10.327,
+     "end": 10.667
+    },
+    {
+     "text": "seal",
+     "start": 10.667,
+     "end": 10.967
+    },
+    {
+     "text": "the",
+     "start": 10.967,
+     "end": 11.207
+    },
+    {
+     "text": "seams",
+     "start": 11.207,
+     "end": 11.627
+    },
+    {
+     "text": "with",
+     "start": 11.627,
+     "end": 11.907
+    },
+    {
+     "text": "heat",
+     "start": 11.907,
+     "end": 12.207
+    },
+    {
+     "text": "from",
+     "start": 12.207,
+     "end": 12.447
+    },
+    {
+     "text": "the",
+     "start": 12.447,
+     "end": 12.607
+    },
+    {
+     "text": "steam",
+     "start": 12.607,
+     "end": 12.927
+    },
+    {
+     "text": "pipes.",
+     "start": 12.927,
+     "end": 13.367
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "name": "THE DECOY",
+   "step": 5,
+   "start": 60.267,
+   "end": 72.567,
+   "duration": 12.3,
+   "start_frame": 1808,
+   "frames": 369,
+   "target": 14,
+   "narration": "But when you slip out at night, guards check your bed. So you sculpt a head from plaster, soap, and toilet paper. Real hair from the barber shop. In the dark, it looks asleep.",
+   "visual": "A low-poly head is built: plaster, then soap and paper layers, flesh-tone paint, hair. It is placed on a pillow under a blanket. A guard glances in and walks on.",
+   "cues": {
+    "start": 0.0,
+    "end": 12.3,
+    "check": 1.513,
+    "sculpt": 3.413,
+    "plaster": 4.543,
+    "soap": 5.603,
+    "paper": 6.083,
+    "hair": 7.843,
+    "dark": 9.973,
+    "asleep": 11.353
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "t": 60.367,
+     "dur": null,
+     "gain": -16
+    },
+    {
+     "name": "tension",
+     "t": 61.78,
+     "dur": 2.0,
+     "gain": -16
+    },
+    {
+     "name": "pop",
+     "t": 64.81,
+     "dur": null,
+     "gain": -15
+    },
+    {
+     "name": "pop",
+     "t": 65.87,
+     "dur": null,
+     "gain": -16
+    },
+    {
+     "name": "rustle",
+     "t": 66.35,
+     "dur": 0.9,
+     "gain": -14
+    },
+    {
+     "name": "brush",
+     "t": 67.3,
+     "dur": 0.7,
+     "gain": -15
+    },
+    {
+     "name": "pop",
+     "t": 68.11,
+     "dur": null,
+     "gain": -15
+    },
+    {
+     "name": "footsteps",
+     "t": 70.54,
+     "dur": 2.027,
+     "gain": -16
+    }
+   ],
+   "words": [
+    {
+     "text": "But",
+     "start": 0.173,
+     "end": 0.223
+    },
+    {
+     "text": "when",
+     "start": 0.193,
+     "end": 0.353
+    },
+    {
+     "text": "you",
+     "start": 0.353,
+     "end": 0.533
+    },
+    {
+     "text": "slip",
+     "start": 0.533,
+     "end": 0.793
+    },
+    {
+     "text": "out",
+     "start": 0.793,
+     "end": 1.033
+    },
+    {
+     "text": "at",
+     "start": 1.033,
+     "end": 1.173
+    },
+    {
+     "text": "night,",
+     "start": 1.173,
+     "end": 1.453
+    },
+    {
+     "text": "guards",
+     "start": 1.713,
+     "end": 1.953
+    },
+    {
+     "text": "check",
+     "start": 1.953,
+     "end": 2.273
+    },
+    {
+     "text": "your",
+     "start": 2.273,
+     "end": 2.513
+    },
+    {
+     "text": "bed.",
+     "start": 2.513,
+     "end": 2.853
+    },
+    {
+     "text": "So",
+     "start": 3.513,
+     "end": 3.593
+    },
+    {
+     "text": "you",
+     "start": 3.593,
+     "end": 3.753
+    },
+    {
+     "text": "sculpt",
+     "start": 3.753,
+     "end": 4.053
+    },
+    {
+     "text": "a",
+     "start": 4.053,
+     "end": 4.162
+    },
+    {
+     "text": "head",
+     "start": 4.162,
+     "end": 4.433
+    },
+    {
+     "text": "from",
+     "start": 4.433,
+     "end": 4.693
+    },
+    {
+     "text": "plaster,",
+     "start": 4.693,
+     "end": 5.333
+    },
+    {
+     "text": "soap,",
+     "start": 5.753,
+     "end": 5.913
+    },
+    {
+     "text": "and",
+     "start": 6.133,
+     "end": 6.233
+    },
+    {
+     "text": "toilet",
+     "start": 6.233,
+     "end": 6.573
+    },
+    {
+     "text": "paper.",
+     "start": 6.573,
+     "end": 7.093
+    },
+    {
+     "text": "Real",
+     "start": 8.093,
+     "end": 8.143
+    },
+    {
+     "text": "hair",
+     "start": 8.093,
+     "end": 8.453
+    },
+    {
+     "text": "from",
+     "start": 8.453,
+     "end": 8.713
+    },
+    {
+     "text": "the",
+     "start": 8.713,
+     "end": 8.913
+    },
+    {
+     "text": "barber",
+     "start": 8.913,
+     "end": 9.373
+    },
+    {
+     "text": "shop.",
+     "start": 9.373,
+     "end": 9.733
+    },
+    {
+     "text": "In",
+     "start": 10.273,
+     "end": 10.373
+    },
+    {
+     "text": "the",
+     "start": 10.373,
+     "end": 10.533
+    },
+    {
+     "text": "dark,",
+     "start": 10.533,
+     "end": 10.873
+    },
+    {
+     "text": "it",
+     "start": 10.993,
+     "end": 11.153
+    },
+    {
+     "text": "looks",
+     "start": 11.153,
+     "end": 11.353
+    },
+    {
+     "text": "asleep.",
+     "start": 11.353,
+     "end": 11.933
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "name": "THE NIGHT",
+   "step": null,
+   "start": 72.567,
+   "end": 85.7,
+   "duration": 13.133,
+   "start_frame": 2177,
+   "frames": 394,
+   "target": 16,
+   "narration": "June 11th. Four men plan to go. But one of them, Allen West, is stuck. The cement he used to hide his hole has hardened. The others can't wait. They leave without him.",
+   "visual": "Night. Three figures slip through their vents into the corridor. A fourth (West's accent color) strains at his vent and cannot fit. The others look back, hesitate, and move on. Hold a beat on West alone.",
+   "cues": {
+    "start": 0.0,
+    "end": 13.133,
+    "four": 1.293,
+    "west": 3.273,
+    "cement": 6.313,
+    "wait": 9.433,
+    "leave": 10.573
+   },
+   "sfx": [
+    {
+     "name": "foghorn",
+     "t": 72.567,
+     "dur": null,
+     "gain": -18
+    },
+    {
+     "name": "rustle",
+     "t": 73.86,
+     "dur": 2.2,
+     "gain": -16
+    },
+    {
+     "name": "strain",
+     "t": 76.64,
+     "dur": 2.5,
+     "gain": -15
+    },
+    {
+     "name": "crack",
+     "t": 79.28,
+     "dur": null,
+     "gain": -17
+    },
+    {
+     "name": "pipe_clang",
+     "t": 83.64,
+     "dur": null,
+     "gain": -17
+    },
+    {
+     "name": "pipe_clang",
+     "t": 84.44,
+     "dur": null,
+     "gain": -20
+    }
+   ],
+   "words": [
+    {
+     "text": "June",
+     "start": 0.193,
+     "end": 0.353
+    },
+    {
+     "text": "11th.",
+     "start": 0.353,
+     "end": 1.353
+    },
+    {
+     "text": "Four",
+     "start": 1.493,
+     "end": 1.713
+    },
+    {
+     "text": "men",
+     "start": 1.713,
+     "end": 2.013
+    },
+    {
+     "text": "plan",
+     "start": 2.013,
+     "end": 2.333
+    },
+    {
+     "text": "to",
+     "start": 2.333,
+     "end": 2.553
+    },
+    {
+     "text": "go.",
+     "start": 2.553,
+     "end": 2.873
+    },
+    {
+     "text": "But",
+     "start": 3.373,
+     "end": 3.533
+    },
+    {
+     "text": "one",
+     "start": 3.533,
+     "end": 3.773
+    },
+    {
+     "text": "of",
+     "start": 3.773,
+     "end": 3.933
+    },
+    {
+     "text": "them,",
+     "start": 3.933,
+     "end": 4.193
+    },
+    {
+     "text": "Allen",
+     "start": 4.413,
+     "end": 4.573
+    },
+    {
+     "text": "West,",
+     "start": 4.573,
+     "end": 4.933
+    },
+    {
+     "text": "is",
+     "start": 5.133,
+     "end": 5.233
+    },
+    {
+     "text": "stuck.",
+     "start": 5.233,
+     "end": 5.613
+    },
+    {
+     "text": "The",
+     "start": 6.333,
+     "end": 6.513
+    },
+    {
+     "text": "cement",
+     "start": 6.513,
+     "end": 6.813
+    },
+    {
+     "text": "he",
+     "start": 6.813,
+     "end": 7.053
+    },
+    {
+     "text": "used",
+     "start": 7.053,
+     "end": 7.253
+    },
+    {
+     "text": "to",
+     "start": 7.253,
+     "end": 7.473
+    },
+    {
+     "text": "hide",
+     "start": 7.473,
+     "end": 7.733
+    },
+    {
+     "text": "his",
+     "start": 7.733,
+     "end": 7.953
+    },
+    {
+     "text": "hole",
+     "start": 7.953,
+     "end": 8.293
+    },
+    {
+     "text": "has",
+     "start": 8.293,
+     "end": 8.533
+    },
+    {
+     "text": "hardened.",
+     "start": 8.533,
+     "end": 9.073
+    },
+    {
+     "text": "The",
+     "start": 9.593,
+     "end": 9.733
+    },
+    {
+     "text": "others",
+     "start": 9.733,
+     "end": 10.013
+    },
+    {
+     "text": "can't",
+     "start": 10.013,
+     "end": 10.553
+    },
+    {
+     "text": "wait.",
+     "start": 10.553,
+     "end": 10.773
+    },
+    {
+     "text": "They",
+     "start": 10.773,
+     "end": 11.433
+    },
+    {
+     "text": "leave",
+     "start": 11.433,
+     "end": 11.773
+    },
+    {
+     "text": "without",
+     "start": 11.773,
+     "end": 12.193
+    },
+    {
+     "text": "him.",
+     "start": 12.193,
+     "end": 12.653
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "name": "THE ROUTE",
+   "step": null,
+   "start": 85.7,
+   "end": 99.767,
+   "duration": 14.067,
+   "start_frame": 2571,
+   "frames": 422,
+   "target": 18,
+   "narration": "Up the pipes. Onto the roof. Over the fences. Down to a shoreline the searchlights can't see. They inflate the raft and paddle out into 54 degree water, aiming for Angel Island.",
+   "visual": "Fast vertical cutaway scroll: pipes, roof fan, fences, a dark shoreline between searchlight cones. Inflate the raft, push off. Wide shot of a tiny raft on black water, '54\u00b0F' pops in, Angel Island glows faintly far away.",
+   "cues": {
+    "start": 0.0,
+    "end": 14.067,
+    "roof": 1.33,
+    "fences": 2.61,
+    "shore": 4.33,
+    "inflate": 7.98,
+    "paddle": 9.33,
+    "temp": 10.33,
+    "angel": 12.0
+   },
+   "sfx": [
+    {
+     "name": "pipe_clang",
+     "t": 85.85,
+     "dur": null,
+     "gain": -13
+    },
+    {
+     "name": "pipe_clang",
+     "t": 86.35,
+     "dur": null,
+     "gain": -15
+    },
+    {
+     "name": "pipe_clang",
+     "t": 86.8,
+     "dur": null,
+     "gain": -16
+    },
+    {
+     "name": "fan_creak",
+     "t": 87.03,
+     "dur": null,
+     "gain": -12
+    },
+    {
+     "name": "fence_rattle",
+     "t": 88.41,
+     "dur": 1.6,
+     "gain": -12
+    },
+    {
+     "name": "water",
+     "t": 90.03,
+     "dur": 9.737,
+     "gain": -17
+    },
+    {
+     "name": "squeak",
+     "t": 93.98,
+     "dur": null,
+     "gain": -14
+    },
+    {
+     "name": "inflate",
+     "t": 93.88,
+     "dur": 1.4,
+     "gain": -14
+    },
+    {
+     "name": "paddle",
+     "t": 95.43,
+     "dur": 4.337,
+     "gain": -15
+    },
+    {
+     "name": "pop",
+     "t": 96.03,
+     "dur": null,
+     "gain": -15
+    },
+    {
+     "name": "foghorn",
+     "t": 97.9,
+     "dur": null,
+     "gain": -17
+    }
+   ],
+   "words": [
+    {
+     "text": "Up",
+     "start": 0.18,
+     "end": 0.23
+    },
+    {
+     "text": "the",
+     "start": 0.22,
+     "end": 0.4
+    },
+    {
+     "text": "pipes.",
+     "start": 0.4,
+     "end": 0.84
+    },
+    {
+     "text": "Onto",
+     "start": 1.48,
+     "end": 1.58
+    },
+    {
+     "text": "the",
+     "start": 1.58,
+     "end": 1.86
+    },
+    {
+     "text": "roof.",
+     "start": 1.86,
+     "end": 2.26
+    },
+    {
+     "text": "Over",
+     "start": 2.76,
+     "end": 3.06
+    },
+    {
+     "text": "the",
+     "start": 3.06,
+     "end": 3.28
+    },
+    {
+     "text": "fences.",
+     "start": 3.28,
+     "end": 3.74
+    },
+    {
+     "text": "Down",
+     "start": 4.48,
+     "end": 4.76
+    },
+    {
+     "text": "to",
+     "start": 4.76,
+     "end": 5.02
+    },
+    {
+     "text": "a",
+     "start": 5.02,
+     "end": 5.18
+    },
+    {
+     "text": "shoreline",
+     "start": 5.18,
+     "end": 5.8
+    },
+    {
+     "text": "the",
+     "start": 5.8,
+     "end": 6.06
+    },
+    {
+     "text": "searchlights",
+     "start": 6.06,
+     "end": 6.62
+    },
+    {
+     "text": "can't",
+     "start": 6.62,
+     "end": 7.1
+    },
+    {
+     "text": "see.",
+     "start": 7.1,
+     "end": 7.48
+    },
+    {
+     "text": "They",
+     "start": 8.08,
+     "end": 8.32
+    },
+    {
+     "text": "inflate",
+     "start": 8.32,
+     "end": 8.76
+    },
+    {
+     "text": "the",
+     "start": 8.76,
+     "end": 8.96
+    },
+    {
+     "text": "raft",
+     "start": 8.96,
+     "end": 9.32
+    },
+    {
+     "text": "and",
+     "start": 9.32,
+     "end": 9.58
+    },
+    {
+     "text": "paddle",
+     "start": 9.58,
+     "end": 9.9
+    },
+    {
+     "text": "out",
+     "start": 9.9,
+     "end": 10.24
+    },
+    {
+     "text": "into",
+     "start": 10.24,
+     "end": 10.48
+    },
+    {
+     "text": "54",
+     "start": 10.48,
+     "end": 11.18
+    },
+    {
+     "text": "degree",
+     "start": 11.18,
+     "end": 11.52
+    },
+    {
+     "text": "water,",
+     "start": 11.52,
+     "end": 12.1
+    },
+    {
+     "text": "aiming",
+     "start": 12.1,
+     "end": 12.6
+    },
+    {
+     "text": "for",
+     "start": 12.6,
+     "end": 12.92
+    },
+    {
+     "text": "Angel",
+     "start": 12.92,
+     "end": 13.38
+    },
+    {
+     "text": "Island.",
+     "start": 13.38,
+     "end": 13.9
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "name": "DAWN",
+   "step": null,
+   "start": 99.767,
+   "end": 111.267,
+   "duration": 11.5,
+   "start_frame": 2993,
+   "frames": 345,
+   "target": 14,
+   "narration": "At dawn, the guards find three men sleeping. Until they touch one. A paddle turns up. Scraps of a raincoat raft. The FBI searches for years.",
+   "visual": "Warm morning light. A guard pokes a figure in a bunk and the head rolls off and bounces. Cut to a paddle floating on calm water, then drifting rubber scraps. A fast montage of search boats and a map-style sweep.",
+   "cues": {
+    "start": 0.0,
+    "end": 11.5,
+    "until": 2.793,
+    "touch": 3.883,
+    "paddle": 4.663,
+    "scraps": 6.483,
+    "fbi": 8.963
+   },
+   "sfx": [
+    {
+     "name": "thud_roll",
+     "t": 104.2,
+     "dur": null,
+     "gain": -9
+    },
+    {
+     "name": "water",
+     "t": 104.43,
+     "dur": 4.3,
+     "gain": -15
+    },
+    {
+     "name": "boat",
+     "t": 108.73,
+     "dur": 2.537,
+     "gain": -17
+    },
+    {
+     "name": "sweep",
+     "t": 108.93,
+     "dur": 2.4,
+     "gain": -18
+    }
+   ],
+   "words": [
+    {
+     "text": "At",
+     "start": 0.153,
+     "end": 0.393
+    },
+    {
+     "text": "dawn,",
+     "start": 0.393,
+     "end": 0.733
+    },
+    {
+     "text": "the",
+     "start": 0.733,
+     "end": 1.013
+    },
+    {
+     "text": "guards",
+     "start": 1.013,
+     "end": 1.313
+    },
+    {
+     "text": "find",
+     "start": 1.313,
+     "end": 1.693
+    },
+    {
+     "text": "three",
+     "start": 1.693,
+     "end": 2.053
+    },
+    {
+     "text": "men",
+     "start": 2.053,
+     "end": 2.333
+    },
+    {
+     "text": "sleeping.",
+     "start": 2.333,
+     "end": 2.893
+    },
+    {
+     "text": "Until",
+     "start": 2.893,
+     "end": 3.593
+    },
+    {
+     "text": "they",
+     "start": 3.593,
+     "end": 3.833
+    },
+    {
+     "text": "touch",
+     "start": 3.833,
+     "end": 4.073
+    },
+    {
+     "text": "one.",
+     "start": 4.073,
+     "end": 4.493
+    },
+    {
+     "text": "A",
+     "start": 4.913,
+     "end": 5.093
+    },
+    {
+     "text": "paddle",
+     "start": 5.093,
+     "end": 5.433
+    },
+    {
+     "text": "turns",
+     "start": 5.433,
+     "end": 5.793
+    },
+    {
+     "text": "up.",
+     "start": 5.793,
+     "end": 6.253
+    },
+    {
+     "text": "Scraps",
+     "start": 6.733,
+     "end": 7.053
+    },
+    {
+     "text": "of",
+     "start": 7.053,
+     "end": 7.413
+    },
+    {
+     "text": "a",
+     "start": 7.413,
+     "end": 7.463
+    },
+    {
+     "text": "raincoat",
+     "start": 7.413,
+     "end": 8.033
+    },
+    {
+     "text": "raft.",
+     "start": 8.033,
+     "end": 8.533
+    },
+    {
+     "text": "The",
+     "start": 9.213,
+     "end": 9.263
+    },
+    {
+     "text": "FBI",
+     "start": 9.233,
+     "end": 9.753
+    },
+    {
+     "text": "searches",
+     "start": 9.753,
+     "end": 10.393
+    },
+    {
+     "text": "for",
+     "start": 10.393,
+     "end": 10.753
+    },
+    {
+     "text": "years.",
+     "start": 10.753,
+     "end": 11.153
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "name": "THE ENDING",
+   "step": null,
+   "start": 111.267,
+   "end": 124.1,
+   "duration": 12.833,
+   "start_frame": 3338,
+   "frames": 385,
+   "target": 10,
+   "narration": "In 1979, the FBI closed the case, presuming them dead. But no confirmed body was ever found. Maybe they drowned. Maybe they made it.",
+   "visual": "Slow pull back from the empty bay at dawn. The raft's wake fades into the water. A lone gull. Fade to black on the last word.",
+   "cues": {
+    "start": 0.0,
+    "end": 12.833,
+    "gull": 5.773,
+    "fade": 11.073
+   },
+   "sfx": [
+    {
+     "name": "water",
+     "t": 111.267,
+     "dur": 12.833,
+     "gain": -17
+    },
+    {
+     "name": "gull",
+     "t": 117.64,
+     "dur": null,
+     "gain": -20
+    },
+    {
+     "name": "foghorn",
+     "t": 113.467,
+     "dur": null,
+     "gain": -21
+    }
+   ],
+   "words": [
+    {
+     "text": "In",
+     "start": 0.173,
+     "end": 0.273
+    },
+    {
+     "text": "1979,",
+     "start": 0.273,
+     "end": 1.293
+    },
+    {
+     "text": "the",
+     "start": 1.993,
+     "end": 2.043
+    },
+    {
+     "text": "FBI",
+     "start": 2.033,
+     "end": 2.813
+    },
+    {
+     "text": "closed",
+     "start": 2.813,
+     "end": 3.233
+    },
+    {
+     "text": "the",
+     "start": 3.233,
+     "end": 3.493
+    },
+    {
+     "text": "case,",
+     "start": 3.493,
+     "end": 3.833
+    },
+    {
+     "text": "presuming",
+     "start": 4.073,
+     "end": 4.553
+    },
+    {
+     "text": "them",
+     "start": 4.553,
+     "end": 4.713
+    },
+    {
+     "text": "dead.",
+     "start": 4.713,
+     "end": 5.073
+    },
+    {
+     "text": "But",
+     "start": 5.773,
+     "end": 5.893
+    },
+    {
+     "text": "no",
+     "start": 5.893,
+     "end": 6.093
+    },
+    {
+     "text": "confirmed",
+     "start": 6.093,
+     "end": 6.713
+    },
+    {
+     "text": "body",
+     "start": 6.713,
+     "end": 7.193
+    },
+    {
+     "text": "was",
+     "start": 7.193,
+     "end": 7.413
+    },
+    {
+     "text": "ever",
+     "start": 7.413,
+     "end": 7.673
+    },
+    {
+     "text": "found.",
+     "start": 7.673,
+     "end": 8.173
+    },
+    {
+     "text": "Maybe",
+     "start": 8.853,
+     "end": 9.073
+    },
+    {
+     "text": "they",
+     "start": 9.073,
+     "end": 9.333
+    },
+    {
+     "text": "drowned.",
+     "start": 9.333,
+     "end": 9.773
+    },
+    {
+     "text": "Maybe",
+     "start": 10.553,
+     "end": 10.753
+    },
+    {
+     "text": "they",
+     "start": 10.753,
+     "end": 11.073
+    },
+    {
+     "text": "made",
+     "start": 11.073,
+     "end": 11.373
+    },
+    {
+     "text": "it.",
+     "start": 11.373,
+     "end": 11.513
+    }
+   ]
+  }
+ ]
+}
