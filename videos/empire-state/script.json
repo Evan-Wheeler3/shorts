@@ -1,0 +1,143 @@
+{
+  "id": "empire-state",
+  "title": "How to Build the Empire State Building in a Year",
+  "renderer": "2d",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "tail_seconds": 1.3,
+  "thumbnail": { "shot": 9, "cue": "tallest", "offset": 1.2 },
+  "music": { "build_shot": 8, "peak_shot": 9, "release_shot": 10, "chords": [[53, 57, 60, 65], [48, 55, 60, 64], [50, 57, 62, 65], [46, 53, 58, 62]], "pulse_hz": 87.3, "pulse_step": 0.5 },
+  "voice": {
+    "pause_ms": 200,
+    "pause_after_shot_ms": { "9": 600 },
+    "kokoro": { "voice": "am_michael", "speed": 0.9 },
+    "chatterbox": { "exaggeration": 0.4, "cfg_weight": 0.5, "temperature": 0.7, "seed_base": 1930 }
+  },
+  "shots": [
+    {
+      "id": 1, "name": "HOOK", "target": 10,
+      "narration": "In 1930, they started the tallest building in the world. 410 days later, it was finished. 102 stories. Here's how you build that fast.",
+      "visual": "An empty lot on a blueprint street grid. The tower's outline draws itself upward, far past the top of the frame. '1930' pops in. The outline fades to a ghost and the camera drops back to the empty lot.",
+      "cues": { "year": { "word": "1930", "offset": -0.1 }, "draw": { "word": "tallest", "offset": -0.3 }, "stories": { "word": "102", "offset": -0.1 }, "how": { "word": "heres", "offset": -0.1 } },
+      "sfx": [
+        { "name": "pop", "at": "year", "gain": -15 },
+        { "name": "brush", "at": "draw", "until": "stories", "gain": -15 },
+        { "name": "whoosh", "at": "how", "gain": -16 }
+      ]
+    },
+    {
+      "id": 2, "name": "THE STEEL", "step": 1, "target": 13,
+      "narration": "Step one: the steel. Tens of thousands of tons of it, and no room on the site to pile it up. So you order it two floors at a time, and it arrives right when you need it.",
+      "visual": "Street-level cutaway. A pile of beams has nowhere to go. Then trucks pull in on a steady beat, each with a few amber beams; a derrick lifts them straight off the truck into the frame.",
+      "cues": { "pile": { "word": "no", "offset": -0.2 }, "order": { "word": "so", "offset": -0.1 }, "arrives": { "word": "arrives", "offset": -0.2 } },
+      "sfx": [
+        { "name": "pop", "at": "start", "offset": 0.1, "gain": -16 },
+        { "name": "pipe_clang", "at": "pile", "offset": 0.2, "gain": -18 },
+        { "name": "pipe_clang", "at": "pile", "offset": 0.7, "gain": -20 },
+        { "name": "truck", "at": "order", "until": "end", "gain": -18 },
+        { "name": "tink", "at": "order", "offset": 1.6, "gain": -16 },
+        { "name": "tink", "at": "order", "offset": 3.9, "gain": -16 },
+        { "name": "tink", "at": "order", "offset": 6.2, "gain": -16 }
+      ]
+    },
+    {
+      "id": 3, "name": "THE STREET", "step": 2, "target": 11,
+      "narration": "But now your trucks are jamming one of the busiest streets in the city. So you run a driveway straight through the building, and unload inside.",
+      "visual": "Traffic backs up in red behind the parked trucks. The ground floor opens like a tunnel, trucks drive through the building, and the street clears.",
+      "cues": { "jam": { "word": "jamming", "offset": -0.3 }, "driveway": { "word": "so", "offset": -0.1 }, "inside": { "word": "unload", "offset": -0.2 } },
+      "sfx": [
+        { "name": "pop", "at": "start", "offset": 0.1, "gain": -16 },
+        { "name": "honk", "at": "jam", "offset": 0.1, "gain": -17 },
+        { "name": "honk", "at": "jam", "offset": 0.9, "gain": -19 },
+        { "name": "honk", "at": "jam", "offset": 1.5, "gain": -18 },
+        { "name": "whoosh", "at": "driveway", "offset": 0.3, "gain": -15 },
+        { "name": "truck", "at": "driveway", "offset": 0.6, "until": "end", "gain": -18 }
+      ]
+    },
+    {
+      "id": 4, "name": "THE FLOOR", "step": 3, "target": 11,
+      "narration": "But every load still has to cross the floor, and wheelbarrows are slow. So you lay railway track inside the building, and roll it across on carts.",
+      "visual": "One floor in cross-section. A wheelbarrow crawls. Track snaps down piece by piece, and carts glide from the hoist to the far edge.",
+      "cues": { "slow": { "word": "wheelbarrows", "offset": -0.2 }, "track": { "word": "lay", "offset": -0.2 }, "roll": { "word": "roll", "offset": -0.2 } },
+      "sfx": [
+        { "name": "pop", "at": "start", "offset": 0.1, "gain": -16 },
+        { "name": "ticks", "at": "track", "dur": 1.5, "gain": -14 },
+        { "name": "cart", "at": "roll", "until": "end", "gain": -15 }
+      ]
+    },
+    {
+      "id": 5, "name": "THE BRICKS", "step": 4, "target": 12,
+      "narration": "But 10 million bricks need somewhere to go. So you pour them down a chute into the basement, and lift them only when a floor is ready.",
+      "visual": "Bricks pile up on the sidewalk. A chute opens into a hopper below street level, the pile pours away, and neat batches ride a hoist up.",
+      "cues": { "bricks": { "word": "10", "offset": -0.2 }, "chute": { "word": "pour", "offset": -0.3 }, "lift": { "word": "lift", "offset": -0.2 } },
+      "sfx": [
+        { "name": "pop", "at": "start", "offset": 0.1, "gain": -16 },
+        { "name": "bricks", "at": "bricks", "until": "chute", "gain": -15 },
+        { "name": "bricks", "at": "chute", "offset": 0.3, "dur": 2.4, "gain": -13 },
+        { "name": "drill_muffled", "at": "lift", "until": "end", "gain": -20 }
+      ]
+    },
+    {
+      "id": 6, "name": "THE RIVETS", "step": 5, "target": 14,
+      "narration": "But steel has to be joined. So one man heats a rivet until it glows, and throws it. Another catches it in a can. And they hammer it in before it cools.",
+      "visual": "High on the open frame. A red-hot dot arcs between two silhouettes, lands in a can, and is driven home. Pull out to dozens of red arcs across the frame.",
+      "cues": { "heat": { "word": "heats", "offset": -0.2 }, "throw": { "word": "throws", "offset": -0.15 }, "catch": { "word": "catches", "offset": 0.0 }, "hammer": { "word": "hammer", "offset": -0.15 }, "cools": { "word": "before", "offset": 0.0 } },
+      "sfx": [
+        { "name": "pop", "at": "start", "offset": 0.1, "gain": -16 },
+        { "name": "steam", "at": "heat", "dur": 1.3, "gain": -22 },
+        { "name": "whoosh", "at": "throw", "gain": -15 },
+        { "name": "tink", "at": "throw", "offset": 0.72, "gain": -12 },
+        { "name": "hammer", "at": "hammer", "dur": 1.3, "gain": -12 },
+        { "name": "rivets", "at": "cools", "offset": 0.5, "until": "end", "gain": -17 }
+      ]
+    },
+    {
+      "id": 7, "name": "THE LUNCH", "step": 6, "target": 11,
+      "narration": "But now thousands of men are working hundreds of feet up, and lunch is on the ground. So you put the cafeterias up there with them.",
+      "visual": "A long line of silhouettes heads down for lunch, shown in red as wasted time. A lunch counter pops onto an unfinished floor and the line vanishes.",
+      "cues": { "up": { "word": "hundreds", "offset": -0.2 }, "ground": { "word": "lunch", "offset": -0.2 }, "cafe": { "word": "so", "offset": -0.1 } },
+      "sfx": [
+        { "name": "pop", "at": "start", "offset": 0.1, "gain": -16 },
+        { "name": "footsteps", "at": "ground", "until": "cafe", "gain": -17 },
+        { "name": "whoosh", "at": "cafe", "offset": 0.1, "gain": -16 },
+        { "name": "pop", "at": "cafe", "offset": 0.9, "gain": -14 },
+        { "name": "tink", "at": "cafe", "offset": 1.6, "gain": -20 }
+      ]
+    },
+    {
+      "id": 8, "name": "THE PACE", "target": 11,
+      "narration": "At the peak, 3,400 people are on the job in a single day. And the frame is climbing four and a half floors a week.",
+      "visual": "Fast vertical scroll. Every system runs at once: trucks, hoists, derricks, rivet arcs. Floors stack upward in rhythm. '3,400' pops in.",
+      "cues": { "people": { "word": "3400", "offset": -0.15 }, "climb": { "word": "and", "nth": -1, "offset": -0.1 } },
+      "sfx": [
+        { "name": "pop", "at": "people", "gain": -14 },
+        { "name": "rivets", "at": "start", "until": "end", "gain": -18 },
+        { "name": "ticks", "at": "climb", "until": "end", "gain": -17 },
+        { "name": "sweep", "at": "climb", "until": "end", "gain": -22 }
+      ]
+    },
+    {
+      "id": 9, "name": "THE TOP", "target": 9,
+      "narration": "410 days after it started, it's done. The tallest building in the world.",
+      "visual": "The last piece slots in at the top. The camera pulls all the way back to show the full tower above a low skyline. '410 DAYS' pops in.",
+      "cues": { "done": { "word": "done", "offset": -0.25 }, "tallest": { "word": "the", "offset": -0.1 } },
+      "sfx": [
+        { "name": "snap", "at": "done", "offset": 0.2, "gain": -11 },
+        { "name": "pipe_clang", "at": "done", "offset": 0.22, "gain": -15 },
+        { "name": "pop", "at": "done", "offset": 0.55, "gain": -14 },
+        { "name": "wind", "at": "tallest", "until": "end", "gain": -22 }
+      ]
+    },
+    {
+      "id": 10, "name": "THE ENDING", "target": 12,
+      "narration": "It opens in 1931, in the middle of the Great Depression. Most of the offices sit empty. New Yorkers call it the Empty State Building. They built it faster than they could fill it.",
+      "visual": "Night. Windows light up across the tower, then most go dark, leaving a few scattered lights. Slow push in on one lit window. Fade out.",
+      "cues": { "dark": { "word": "most", "offset": -0.2 }, "fade": { "word": "fill", "offset": 0.0 } },
+      "sfx": [
+        { "name": "wind", "at": "start", "until": "end", "gain": -21 },
+        { "name": "ticks", "at": "dark", "dur": 2.6, "gain": -20 }
+      ]
+    }
+  ]
+}

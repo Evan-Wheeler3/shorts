@@ -1,0 +1,1911 @@
+{
+ "id": "empire-state",
+ "renderer": "2d",
+ "music": {
+  "build_shot": 8,
+  "peak_shot": 9,
+  "release_shot": 10,
+  "chords": [
+   [
+    53,
+    57,
+    60,
+    65
+   ],
+   [
+    48,
+    55,
+    60,
+    64
+   ],
+   [
+    50,
+    57,
+    62,
+    65
+   ],
+   [
+    46,
+    53,
+    58,
+    62
+   ]
+  ],
+  "pulse_hz": 87.3,
+  "pulse_step": 0.5
+ },
+ "thumbnail_frame": 2597,
+ "title": "How to Build the Empire State Building in a Year",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "duration": 103.033,
+ "frames": 3091,
+ "narration_duration": 101.74,
+ "shots": [
+  {
+   "id": 1,
+   "name": "HOOK",
+   "step": null,
+   "start": 0.0,
+   "end": 11.967,
+   "duration": 11.967,
+   "start_frame": 0,
+   "frames": 359,
+   "target": 10,
+   "narration": "In 1930, they started the tallest building in the world. 410 days later, it was finished. 102 stories. Here's how you build that fast.",
+   "visual": "An empty lot on a blueprint street grid. The tower's outline draws itself upward, far past the top of the frame. '1930' pops in. The outline fades to a ghost and the camera drops back to the empty lot.",
+   "cues": {
+    "start": 0.0,
+    "end": 11.967,
+    "year": 0.3,
+    "draw": 2.08,
+    "stories": 7.98,
+    "how": 9.8
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "t": 0.3,
+     "dur": null,
+     "gain": -15
+    },
+    {
+     "name": "brush",
+     "t": 2.08,
+     "dur": 5.9,
+     "gain": -15
+    },
+    {
+     "name": "whoosh",
+     "t": 9.8,
+     "dur": null,
+     "gain": -16
+    }
+   ],
+   "words": [
+    {
+     "text": "In",
+     "start": 0.0,
+     "end": 0.4
+    },
+    {
+     "text": "1930,",
+     "start": 0.4,
+     "end": 1.06
+    },
+    {
+     "text": "they",
+     "start": 1.76,
+     "end": 1.81
+    },
+    {
+     "text": "started",
+     "start": 1.8,
+     "end": 2.1
+    },
+    {
+     "text": "the",
+     "start": 2.1,
+     "end": 2.38
+    },
+    {
+     "text": "tallest",
+     "start": 2.38,
+     "end": 2.74
+    },
+    {
+     "text": "building",
+     "start": 2.74,
+     "end": 3.14
+    },
+    {
+     "text": "in",
+     "start": 3.14,
+     "end": 3.5
+    },
+    {
+     "text": "the",
+     "start": 3.5,
+     "end": 3.62
+    },
+    {
+     "text": "world.",
+     "start": 3.62,
+     "end": 4.04
+    },
+    {
+     "text": "410",
+     "start": 5.26,
+     "end": 5.31
+    },
+    {
+     "text": "days",
+     "start": 5.26,
+     "end": 5.96
+    },
+    {
+     "text": "later,",
+     "start": 5.96,
+     "end": 6.38
+    },
+    {
+     "text": "it",
+     "start": 6.46,
+     "end": 6.54
+    },
+    {
+     "text": "was",
+     "start": 6.54,
+     "end": 6.68
+    },
+    {
+     "text": "finished.",
+     "start": 6.68,
+     "end": 7.18
+    },
+    {
+     "text": "102",
+     "start": 8.08,
+     "end": 8.64
+    },
+    {
+     "text": "stories.",
+     "start": 8.64,
+     "end": 9.2
+    },
+    {
+     "text": "Here's",
+     "start": 9.9,
+     "end": 10.14
+    },
+    {
+     "text": "how",
+     "start": 10.14,
+     "end": 10.32
+    },
+    {
+     "text": "you",
+     "start": 10.32,
+     "end": 10.54
+    },
+    {
+     "text": "build",
+     "start": 10.54,
+     "end": 10.78
+    },
+    {
+     "text": "that",
+     "start": 10.78,
+     "end": 11.04
+    },
+    {
+     "text": "fast.",
+     "start": 11.04,
+     "end": 11.58
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name": "THE STEEL",
+   "step": 1,
+   "start": 11.967,
+   "end": 23.267,
+   "duration": 11.3,
+   "start_frame": 359,
+   "frames": 339,
+   "target": 13,
+   "narration": "Step one: the steel. Tens of thousands of tons of it, and no room on the site to pile it up. So you order it two floors at a time, and it arrives right when you need it.",
+   "visual": "Street-level cutaway. A pile of beams has nowhere to go. Then trucks pull in on a steady beat, each with a few amber beams; a derrick lifts them straight off the truck into the frame.",
+   "cues": {
+    "start": 0.0,
+    "end": 11.3,
+    "pile": 3.873,
+    "order": 6.653,
+    "arrives": 9.413
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "t": 12.067,
+     "dur": null,
+     "gain": -16
+    },
+    {
+     "name": "pipe_clang",
+     "t": 16.04,
+     "dur": null,
+     "gain": -18
+    },
+    {
+     "name": "pipe_clang",
+     "t": 16.54,
+     "dur": null,
+     "gain": -20
+    },
+    {
+     "name": "truck",
+     "t": 18.62,
+     "dur": 4.647,
+     "gain": -18
+    },
+    {
+     "name": "tink",
+     "t": 20.22,
+     "dur": null,
+     "gain": -16
+    },
+    {
+     "name": "tink",
+     "t": 22.52,
+     "dur": null,
+     "gain": -16
+    },
+    {
+     "name": "tink",
+     "t": 24.82,
+     "dur": null,
+     "gain": -16
+    }
+   ],
+   "words": [
+    {
+     "text": "Step",
+     "start": 0.173,
+     "end": 0.223
+    },
+    {
+     "text": "one:",
+     "start": 0.213,
+     "end": 0.513
+    },
+    {
+     "text": "the",
+     "start": 0.713,
+     "end": 0.793
+    },
+    {
+     "text": "steel.",
+     "start": 0.793,
+     "end": 1.233
+    },
+    {
+     "text": "Tens",
+     "start": 2.013,
+     "end": 2.173
+    },
+    {
+     "text": "of",
+     "start": 2.173,
+     "end": 2.433
+    },
+    {
+     "text": "thousands",
+     "start": 2.433,
+     "end": 2.873
+    },
+    {
+     "text": "of",
+     "start": 2.873,
+     "end": 3.153
+    },
+    {
+     "text": "tons",
+     "start": 3.153,
+     "end": 3.453
+    },
+    {
+     "text": "of",
+     "start": 3.453,
+     "end": 3.713
+    },
+    {
+     "text": "it,",
+     "start": 3.713,
+     "end": 3.853
+    },
+    {
+     "text": "and",
+     "start": 3.853,
+     "end": 4.073
+    },
+    {
+     "text": "no",
+     "start": 4.073,
+     "end": 4.293
+    },
+    {
+     "text": "room",
+     "start": 4.293,
+     "end": 4.633
+    },
+    {
+     "text": "on",
+     "start": 4.633,
+     "end": 4.853
+    },
+    {
+     "text": "the",
+     "start": 4.853,
+     "end": 4.993
+    },
+    {
+     "text": "site",
+     "start": 4.993,
+     "end": 5.233
+    },
+    {
+     "text": "to",
+     "start": 5.233,
+     "end": 5.453
+    },
+    {
+     "text": "pile",
+     "start": 5.453,
+     "end": 5.753
+    },
+    {
+     "text": "it",
+     "start": 5.753,
+     "end": 5.933
+    },
+    {
+     "text": "up.",
+     "start": 5.933,
+     "end": 6.213
+    },
+    {
+     "text": "So",
+     "start": 6.753,
+     "end": 6.993
+    },
+    {
+     "text": "you",
+     "start": 6.993,
+     "end": 7.133
+    },
+    {
+     "text": "order",
+     "start": 7.133,
+     "end": 7.453
+    },
+    {
+     "text": "it",
+     "start": 7.453,
+     "end": 7.633
+    },
+    {
+     "text": "two",
+     "start": 7.633,
+     "end": 7.893
+    },
+    {
+     "text": "floors",
+     "start": 7.893,
+     "end": 8.373
+    },
+    {
+     "text": "at",
+     "start": 8.373,
+     "end": 8.573
+    },
+    {
+     "text": "a",
+     "start": 8.573,
+     "end": 8.713
+    },
+    {
+     "text": "time,",
+     "start": 8.713,
+     "end": 9.133
+    },
+    {
+     "text": "and",
+     "start": 9.133,
+     "end": 9.513
+    },
+    {
+     "text": "it",
+     "start": 9.513,
+     "end": 9.613
+    },
+    {
+     "text": "arrives",
+     "start": 9.613,
+     "end": 10.093
+    },
+    {
+     "text": "right",
+     "start": 10.093,
+     "end": 10.473
+    },
+    {
+     "text": "when",
+     "start": 10.473,
+     "end": 10.673
+    },
+    {
+     "text": "you",
+     "start": 10.673,
+     "end": 10.833
+    },
+    {
+     "text": "need",
+     "start": 10.833,
+     "end": 11.033
+    },
+    {
+     "text": "it.",
+     "start": 11.033,
+     "end": 11.233
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "THE STREET",
+   "step": 2,
+   "start": 23.267,
+   "end": 32.633,
+   "duration": 9.367,
+   "start_frame": 698,
+   "frames": 281,
+   "target": 11,
+   "narration": "But now your trucks are jamming one of the busiest streets in the city. So you run a driveway straight through the building, and unload inside.",
+   "visual": "Traffic backs up in red behind the parked trucks. The ground floor opens like a tunnel, trucks drive through the building, and the street clears.",
+   "cues": {
+    "start": 0.0,
+    "end": 9.367,
+    "jam": 1.113,
+    "driveway": 3.913,
+    "inside": 7.653
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "t": 23.367,
+     "dur": null,
+     "gain": -16
+    },
+    {
+     "name": "honk",
+     "t": 24.48,
+     "dur": null,
+     "gain": -17
+    },
+    {
+     "name": "honk",
+     "t": 25.28,
+     "dur": null,
+     "gain": -19
+    },
+    {
+     "name": "honk",
+     "t": 25.88,
+     "dur": null,
+     "gain": -18
+    },
+    {
+     "name": "whoosh",
+     "t": 27.48,
+     "dur": null,
+     "gain": -15
+    },
+    {
+     "name": "truck",
+     "t": 27.78,
+     "dur": 4.854,
+     "gain": -18
+    }
+   ],
+   "words": [
+    {
+     "text": "But",
+     "start": 0.053,
+     "end": 0.213
+    },
+    {
+     "text": "now",
+     "start": 0.213,
+     "end": 0.513
+    },
+    {
+     "text": "your",
+     "start": 0.513,
+     "end": 0.793
+    },
+    {
+     "text": "trucks",
+     "start": 0.793,
+     "end": 1.153
+    },
+    {
+     "text": "are",
+     "start": 1.153,
+     "end": 1.413
+    },
+    {
+     "text": "jamming",
+     "start": 1.413,
+     "end": 1.993
+    },
+    {
+     "text": "one",
+     "start": 1.993,
+     "end": 2.173
+    },
+    {
+     "text": "of",
+     "start": 2.173,
+     "end": 2.273
+    },
+    {
+     "text": "the",
+     "start": 2.273,
+     "end": 2.453
+    },
+    {
+     "text": "busiest",
+     "start": 2.453,
+     "end": 2.833
+    },
+    {
+     "text": "streets",
+     "start": 2.833,
+     "end": 3.273
+    },
+    {
+     "text": "in",
+     "start": 3.273,
+     "end": 3.553
+    },
+    {
+     "text": "the",
+     "start": 3.553,
+     "end": 3.693
+    },
+    {
+     "text": "city.",
+     "start": 3.693,
+     "end": 4.013
+    },
+    {
+     "text": "So",
+     "start": 4.013,
+     "end": 4.853
+    },
+    {
+     "text": "you",
+     "start": 4.853,
+     "end": 5.013
+    },
+    {
+     "text": "run",
+     "start": 5.013,
+     "end": 5.213
+    },
+    {
+     "text": "a",
+     "start": 5.213,
+     "end": 5.393
+    },
+    {
+     "text": "driveway",
+     "start": 5.393,
+     "end": 5.933
+    },
+    {
+     "text": "straight",
+     "start": 5.933,
+     "end": 6.393
+    },
+    {
+     "text": "through",
+     "start": 6.393,
+     "end": 6.713
+    },
+    {
+     "text": "the",
+     "start": 6.713,
+     "end": 6.893
+    },
+    {
+     "text": "building,",
+     "start": 6.893,
+     "end": 7.293
+    },
+    {
+     "text": "and",
+     "start": 7.293,
+     "end": 7.853
+    },
+    {
+     "text": "unload",
+     "start": 7.853,
+     "end": 8.533
+    },
+    {
+     "text": "inside.",
+     "start": 8.533,
+     "end": 9.193
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "THE FLOOR",
+   "step": 3,
+   "start": 32.633,
+   "end": 43.1,
+   "duration": 10.467,
+   "start_frame": 979,
+   "frames": 314,
+   "target": 11,
+   "narration": "But every load still has to cross the floor, and wheelbarrows are slow. So you lay railway track inside the building, and roll it across on carts.",
+   "visual": "One floor in cross-section. A wheelbarrow crawls. Track snaps down piece by piece, and carts glide from the hoist to the far edge.",
+   "cues": {
+    "start": 0.0,
+    "end": 10.467,
+    "slow": 3.367,
+    "track": 5.927,
+    "roll": 8.487
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "t": 32.733,
+     "dur": null,
+     "gain": -16
+    },
+    {
+     "name": "ticks",
+     "t": 38.56,
+     "dur": 1.5,
+     "gain": -14
+    },
+    {
+     "name": "cart",
+     "t": 41.12,
+     "dur": 1.98,
+     "gain": -15
+    }
+   ],
+   "words": [
+    {
+     "text": "But",
+     "start": 0.167,
+     "end": 0.407
+    },
+    {
+     "text": "every",
+     "start": 0.407,
+     "end": 0.767
+    },
+    {
+     "text": "load",
+     "start": 0.767,
+     "end": 1.127
+    },
+    {
+     "text": "still",
+     "start": 1.127,
+     "end": 1.507
+    },
+    {
+     "text": "has",
+     "start": 1.507,
+     "end": 1.767
+    },
+    {
+     "text": "to",
+     "start": 1.767,
+     "end": 1.967
+    },
+    {
+     "text": "cross",
+     "start": 1.967,
+     "end": 2.247
+    },
+    {
+     "text": "the",
+     "start": 2.247,
+     "end": 2.547
+    },
+    {
+     "text": "floor,",
+     "start": 2.547,
+     "end": 2.947
+    },
+    {
+     "text": "and",
+     "start": 2.947,
+     "end": 3.567
+    },
+    {
+     "text": "wheelbarrows",
+     "start": 3.567,
+     "end": 4.287
+    },
+    {
+     "text": "are",
+     "start": 4.287,
+     "end": 4.527
+    },
+    {
+     "text": "slow.",
+     "start": 4.527,
+     "end": 5.027
+    },
+    {
+     "text": "So",
+     "start": 5.927,
+     "end": 5.987
+    },
+    {
+     "text": "you",
+     "start": 5.987,
+     "end": 6.127
+    },
+    {
+     "text": "lay",
+     "start": 6.127,
+     "end": 6.327
+    },
+    {
+     "text": "railway",
+     "start": 6.327,
+     "end": 6.807
+    },
+    {
+     "text": "track",
+     "start": 6.807,
+     "end": 7.247
+    },
+    {
+     "text": "inside",
+     "start": 7.247,
+     "end": 7.687
+    },
+    {
+     "text": "the",
+     "start": 7.687,
+     "end": 7.947
+    },
+    {
+     "text": "building,",
+     "start": 7.947,
+     "end": 8.307
+    },
+    {
+     "text": "and",
+     "start": 8.307,
+     "end": 8.687
+    },
+    {
+     "text": "roll",
+     "start": 8.687,
+     "end": 8.987
+    },
+    {
+     "text": "it",
+     "start": 8.987,
+     "end": 9.167
+    },
+    {
+     "text": "across",
+     "start": 9.167,
+     "end": 9.507
+    },
+    {
+     "text": "on",
+     "start": 9.507,
+     "end": 9.847
+    },
+    {
+     "text": "carts.",
+     "start": 9.847,
+     "end": 10.287
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "THE BRICKS",
+   "step": 4,
+   "start": 43.1,
+   "end": 52.133,
+   "duration": 9.033,
+   "start_frame": 1293,
+   "frames": 271,
+   "target": 12,
+   "narration": "But 10 million bricks need somewhere to go. So you pour them down a chute into the basement, and lift them only when a floor is ready.",
+   "visual": "Bricks pile up on the sidewalk. A chute opens into a hopper below street level, the pile pours away, and neat batches ride a hoist up.",
+   "cues": {
+    "start": 0.0,
+    "end": 9.033,
+    "bricks": 0.22,
+    "chute": 3.64,
+    "lift": 6.48
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "t": 43.2,
+     "dur": null,
+     "gain": -16
+    },
+    {
+     "name": "bricks",
+     "t": 43.32,
+     "dur": 3.42,
+     "gain": -15
+    },
+    {
+     "name": "bricks",
+     "t": 47.04,
+     "dur": 2.4,
+     "gain": -13
+    },
+    {
+     "name": "drill_muffled",
+     "t": 49.58,
+     "dur": 2.553,
+     "gain": -20
+    }
+   ],
+   "words": [
+    {
+     "text": "But",
+     "start": 0.16,
+     "end": 0.42
+    },
+    {
+     "text": "10",
+     "start": 0.42,
+     "end": 0.74
+    },
+    {
+     "text": "million",
+     "start": 0.74,
+     "end": 1.12
+    },
+    {
+     "text": "bricks",
+     "start": 1.12,
+     "end": 1.54
+    },
+    {
+     "text": "need",
+     "start": 1.54,
+     "end": 1.92
+    },
+    {
+     "text": "somewhere",
+     "start": 1.92,
+     "end": 2.32
+    },
+    {
+     "text": "to",
+     "start": 2.32,
+     "end": 2.58
+    },
+    {
+     "text": "go.",
+     "start": 2.58,
+     "end": 2.96
+    },
+    {
+     "text": "So",
+     "start": 3.54,
+     "end": 3.78
+    },
+    {
+     "text": "you",
+     "start": 3.78,
+     "end": 3.94
+    },
+    {
+     "text": "pour",
+     "start": 3.94,
+     "end": 4.2
+    },
+    {
+     "text": "them",
+     "start": 4.2,
+     "end": 4.42
+    },
+    {
+     "text": "down",
+     "start": 4.42,
+     "end": 4.68
+    },
+    {
+     "text": "a",
+     "start": 4.68,
+     "end": 4.88
+    },
+    {
+     "text": "chute",
+     "start": 4.88,
+     "end": 5.24
+    },
+    {
+     "text": "into",
+     "start": 5.24,
+     "end": 5.42
+    },
+    {
+     "text": "the",
+     "start": 5.42,
+     "end": 5.62
+    },
+    {
+     "text": "basement,",
+     "start": 5.62,
+     "end": 6.08
+    },
+    {
+     "text": "and",
+     "start": 6.08,
+     "end": 6.68
+    },
+    {
+     "text": "lift",
+     "start": 6.68,
+     "end": 6.88
+    },
+    {
+     "text": "them",
+     "start": 6.88,
+     "end": 7.12
+    },
+    {
+     "text": "only",
+     "start": 7.12,
+     "end": 7.58
+    },
+    {
+     "text": "when",
+     "start": 7.58,
+     "end": 7.82
+    },
+    {
+     "text": "a",
+     "start": 7.82,
+     "end": 7.98
+    },
+    {
+     "text": "floor",
+     "start": 7.98,
+     "end": 8.32
+    },
+    {
+     "text": "is",
+     "start": 8.32,
+     "end": 8.56
+    },
+    {
+     "text": "ready.",
+     "start": 8.56,
+     "end": 8.86
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "name": "THE RIVETS",
+   "step": 5,
+   "start": 52.133,
+   "end": 63.433,
+   "duration": 11.3,
+   "start_frame": 1564,
+   "frames": 339,
+   "target": 14,
+   "narration": "But steel has to be joined. So one man heats a rivet until it glows, and throws it. Another catches it in a can. And they hammer it in before it cools.",
+   "visual": "High on the open frame. A red-hot dot arcs between two silhouettes, lands in a can, and is driven home. Pull out to dozens of red arcs across the frame.",
+   "cues": {
+    "start": 0.0,
+    "end": 11.3,
+    "heat": 3.027,
+    "throw": 5.217,
+    "catch": 6.987,
+    "hammer": 8.997,
+    "cools": 9.947
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "t": 52.233,
+     "dur": null,
+     "gain": -16
+    },
+    {
+     "name": "steam",
+     "t": 55.16,
+     "dur": 1.3,
+     "gain": -22
+    },
+    {
+     "name": "whoosh",
+     "t": 57.35,
+     "dur": null,
+     "gain": -15
+    },
+    {
+     "name": "tink",
+     "t": 58.07,
+     "dur": null,
+     "gain": -12
+    },
+    {
+     "name": "hammer",
+     "t": 61.13,
+     "dur": 1.3,
+     "gain": -12
+    },
+    {
+     "name": "rivets",
+     "t": 62.58,
+     "dur": 0.853,
+     "gain": -17
+    }
+   ],
+   "words": [
+    {
+     "text": "But",
+     "start": 0.147,
+     "end": 0.267
+    },
+    {
+     "text": "steel",
+     "start": 0.267,
+     "end": 0.687
+    },
+    {
+     "text": "has",
+     "start": 0.687,
+     "end": 0.967
+    },
+    {
+     "text": "to",
+     "start": 0.967,
+     "end": 1.147
+    },
+    {
+     "text": "be",
+     "start": 1.147,
+     "end": 1.327
+    },
+    {
+     "text": "joined.",
+     "start": 1.327,
+     "end": 1.787
+    },
+    {
+     "text": "So",
+     "start": 2.287,
+     "end": 2.607
+    },
+    {
+     "text": "one",
+     "start": 2.607,
+     "end": 2.887
+    },
+    {
+     "text": "man",
+     "start": 2.887,
+     "end": 3.187
+    },
+    {
+     "text": "heats",
+     "start": 3.227,
+     "end": 3.467
+    },
+    {
+     "text": "a",
+     "start": 3.467,
+     "end": 3.707
+    },
+    {
+     "text": "rivet",
+     "start": 3.707,
+     "end": 4.107
+    },
+    {
+     "text": "until",
+     "start": 4.107,
+     "end": 4.407
+    },
+    {
+     "text": "it",
+     "start": 4.407,
+     "end": 4.607
+    },
+    {
+     "text": "glows,",
+     "start": 4.607,
+     "end": 5.147
+    },
+    {
+     "text": "and",
+     "start": 5.147,
+     "end": 5.367
+    },
+    {
+     "text": "throws",
+     "start": 5.367,
+     "end": 5.687
+    },
+    {
+     "text": "it.",
+     "start": 5.687,
+     "end": 6.207
+    },
+    {
+     "text": "Another",
+     "start": 6.567,
+     "end": 6.987
+    },
+    {
+     "text": "catches",
+     "start": 6.987,
+     "end": 7.447
+    },
+    {
+     "text": "it",
+     "start": 7.447,
+     "end": 7.747
+    },
+    {
+     "text": "in",
+     "start": 7.747,
+     "end": 7.847
+    },
+    {
+     "text": "a",
+     "start": 7.847,
+     "end": 8.007
+    },
+    {
+     "text": "can.",
+     "start": 8.007,
+     "end": 8.327
+    },
+    {
+     "text": "And",
+     "start": 8.847,
+     "end": 9.007
+    },
+    {
+     "text": "they",
+     "start": 9.007,
+     "end": 9.147
+    },
+    {
+     "text": "hammer",
+     "start": 9.147,
+     "end": 9.447
+    },
+    {
+     "text": "it",
+     "start": 9.447,
+     "end": 9.707
+    },
+    {
+     "text": "in",
+     "start": 9.707,
+     "end": 9.947
+    },
+    {
+     "text": "before",
+     "start": 9.947,
+     "end": 10.307
+    },
+    {
+     "text": "it",
+     "start": 10.307,
+     "end": 10.527
+    },
+    {
+     "text": "cools.",
+     "start": 10.527,
+     "end": 11.207
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "name": "THE LUNCH",
+   "step": 6,
+   "start": 63.433,
+   "end": 72.133,
+   "duration": 8.7,
+   "start_frame": 1903,
+   "frames": 261,
+   "target": 11,
+   "narration": "But now thousands of men are working hundreds of feet up, and lunch is on the ground. So you put the cafeterias up there with them.",
+   "visual": "A long line of silhouettes heads down for lunch, shown in red as wasted time. A lunch counter pops onto an unfinished floor and the line vanishes.",
+   "cues": {
+    "start": 0.0,
+    "end": 8.7,
+    "up": 2.087,
+    "ground": 3.867,
+    "cafe": 6.067
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "t": 63.533,
+     "dur": null,
+     "gain": -16
+    },
+    {
+     "name": "footsteps",
+     "t": 67.3,
+     "dur": 2.2,
+     "gain": -17
+    },
+    {
+     "name": "whoosh",
+     "t": 69.6,
+     "dur": null,
+     "gain": -16
+    },
+    {
+     "name": "pop",
+     "t": 70.4,
+     "dur": null,
+     "gain": -14
+    },
+    {
+     "name": "tink",
+     "t": 71.1,
+     "dur": null,
+     "gain": -20
+    }
+   ],
+   "words": [
+    {
+     "text": "But",
+     "start": 0.107,
+     "end": 0.247
+    },
+    {
+     "text": "now",
+     "start": 0.247,
+     "end": 0.567
+    },
+    {
+     "text": "thousands",
+     "start": 0.567,
+     "end": 1.167
+    },
+    {
+     "text": "of",
+     "start": 1.167,
+     "end": 1.447
+    },
+    {
+     "text": "men",
+     "start": 1.447,
+     "end": 1.707
+    },
+    {
+     "text": "are",
+     "start": 1.707,
+     "end": 1.967
+    },
+    {
+     "text": "working",
+     "start": 1.967,
+     "end": 2.287
+    },
+    {
+     "text": "hundreds",
+     "start": 2.287,
+     "end": 2.707
+    },
+    {
+     "text": "of",
+     "start": 2.707,
+     "end": 2.947
+    },
+    {
+     "text": "feet",
+     "start": 2.947,
+     "end": 3.147
+    },
+    {
+     "text": "up,",
+     "start": 3.147,
+     "end": 3.467
+    },
+    {
+     "text": "and",
+     "start": 3.827,
+     "end": 4.067
+    },
+    {
+     "text": "lunch",
+     "start": 4.067,
+     "end": 4.347
+    },
+    {
+     "text": "is",
+     "start": 4.347,
+     "end": 4.667
+    },
+    {
+     "text": "on",
+     "start": 4.667,
+     "end": 4.867
+    },
+    {
+     "text": "the",
+     "start": 4.867,
+     "end": 5.047
+    },
+    {
+     "text": "ground.",
+     "start": 5.047,
+     "end": 5.447
+    },
+    {
+     "text": "So",
+     "start": 6.167,
+     "end": 6.387
+    },
+    {
+     "text": "you",
+     "start": 6.387,
+     "end": 6.527
+    },
+    {
+     "text": "put",
+     "start": 6.527,
+     "end": 6.687
+    },
+    {
+     "text": "the",
+     "start": 6.687,
+     "end": 6.967
+    },
+    {
+     "text": "cafeterias",
+     "start": 6.967,
+     "end": 7.667
+    },
+    {
+     "text": "up",
+     "start": 7.667,
+     "end": 7.907
+    },
+    {
+     "text": "there",
+     "start": 7.907,
+     "end": 8.127
+    },
+    {
+     "text": "with",
+     "start": 8.127,
+     "end": 8.367
+    },
+    {
+     "text": "them.",
+     "start": 8.367,
+     "end": 8.607
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "name": "THE PACE",
+   "step": null,
+   "start": 72.133,
+   "end": 81.433,
+   "duration": 9.3,
+   "start_frame": 2164,
+   "frames": 279,
+   "target": 11,
+   "narration": "At the peak, 3,400 people are on the job in a single day. And the frame is climbing four and a half floors a week.",
+   "visual": "Fast vertical scroll. Every system runs at once: trucks, hoists, derricks, rivet arcs. Floors stack upward in rhythm. '3,400' pops in.",
+   "cues": {
+    "start": 0.0,
+    "end": 9.3,
+    "people": 0.977,
+    "climb": 7.747
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "t": 73.11,
+     "dur": null,
+     "gain": -14
+    },
+    {
+     "name": "rivets",
+     "t": 72.133,
+     "dur": 9.3,
+     "gain": -18
+    },
+    {
+     "name": "ticks",
+     "t": 79.88,
+     "dur": 1.553,
+     "gain": -17
+    },
+    {
+     "name": "sweep",
+     "t": 79.88,
+     "dur": 1.553,
+     "gain": -22
+    }
+   ],
+   "words": [
+    {
+     "text": "At",
+     "start": 0.087,
+     "end": 0.287
+    },
+    {
+     "text": "the",
+     "start": 0.287,
+     "end": 0.427
+    },
+    {
+     "text": "peak,",
+     "start": 0.427,
+     "end": 0.727
+    },
+    {
+     "text": "3,400",
+     "start": 1.127,
+     "end": 2.407
+    },
+    {
+     "text": "people",
+     "start": 2.407,
+     "end": 3.087
+    },
+    {
+     "text": "are",
+     "start": 3.087,
+     "end": 3.447
+    },
+    {
+     "text": "on",
+     "start": 3.447,
+     "end": 3.667
+    },
+    {
+     "text": "the",
+     "start": 3.667,
+     "end": 3.847
+    },
+    {
+     "text": "job",
+     "start": 3.847,
+     "end": 4.307
+    },
+    {
+     "text": "in",
+     "start": 4.307,
+     "end": 4.587
+    },
+    {
+     "text": "a",
+     "start": 4.587,
+     "end": 4.747
+    },
+    {
+     "text": "single",
+     "start": 4.747,
+     "end": 5.047
+    },
+    {
+     "text": "day.",
+     "start": 5.047,
+     "end": 5.447
+    },
+    {
+     "text": "And",
+     "start": 5.987,
+     "end": 6.247
+    },
+    {
+     "text": "the",
+     "start": 6.247,
+     "end": 6.387
+    },
+    {
+     "text": "frame",
+     "start": 6.387,
+     "end": 6.707
+    },
+    {
+     "text": "is",
+     "start": 6.707,
+     "end": 6.947
+    },
+    {
+     "text": "climbing",
+     "start": 6.947,
+     "end": 7.367
+    },
+    {
+     "text": "four",
+     "start": 7.367,
+     "end": 7.847
+    },
+    {
+     "text": "and",
+     "start": 7.847,
+     "end": 7.987
+    },
+    {
+     "text": "a",
+     "start": 7.987,
+     "end": 8.087
+    },
+    {
+     "text": "half",
+     "start": 8.087,
+     "end": 8.267
+    },
+    {
+     "text": "floors",
+     "start": 8.267,
+     "end": 8.707
+    },
+    {
+     "text": "a",
+     "start": 8.707,
+     "end": 8.987
+    },
+    {
+     "text": "week.",
+     "start": 8.987,
+     "end": 9.287
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "name": "THE TOP",
+   "step": null,
+   "start": 81.433,
+   "end": 87.933,
+   "duration": 6.5,
+   "start_frame": 2443,
+   "frames": 195,
+   "target": 9,
+   "narration": "410 days after it started, it's done. The tallest building in the world.",
+   "visual": "The last piece slots in at the top. The camera pulls all the way back to show the full tower above a low skyline. '410 DAYS' pops in.",
+   "cues": {
+    "start": 0.0,
+    "end": 6.5,
+    "done": 2.817,
+    "tallest": 3.927
+   },
+   "sfx": [
+    {
+     "name": "snap",
+     "t": 84.45,
+     "dur": null,
+     "gain": -11
+    },
+    {
+     "name": "pipe_clang",
+     "t": 84.47,
+     "dur": null,
+     "gain": -15
+    },
+    {
+     "name": "pop",
+     "t": 84.8,
+     "dur": null,
+     "gain": -14
+    },
+    {
+     "name": "wind",
+     "t": 85.36,
+     "dur": 2.573,
+     "gain": -22
+    }
+   ],
+   "words": [
+    {
+     "text": "410",
+     "start": -0.013,
+     "end": 0.767
+    },
+    {
+     "text": "days",
+     "start": 0.767,
+     "end": 1.567
+    },
+    {
+     "text": "after",
+     "start": 1.567,
+     "end": 1.967
+    },
+    {
+     "text": "it",
+     "start": 1.967,
+     "end": 2.107
+    },
+    {
+     "text": "started,",
+     "start": 2.107,
+     "end": 2.547
+    },
+    {
+     "text": "it's",
+     "start": 2.927,
+     "end": 3.067
+    },
+    {
+     "text": "done.",
+     "start": 3.067,
+     "end": 3.347
+    },
+    {
+     "text": "The",
+     "start": 4.027,
+     "end": 4.127
+    },
+    {
+     "text": "tallest",
+     "start": 4.127,
+     "end": 4.527
+    },
+    {
+     "text": "building",
+     "start": 4.527,
+     "end": 4.947
+    },
+    {
+     "text": "in",
+     "start": 4.947,
+     "end": 5.307
+    },
+    {
+     "text": "the",
+     "start": 5.307,
+     "end": 5.427
+    },
+    {
+     "text": "world.",
+     "start": 5.427,
+     "end": 5.807
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "name": "THE ENDING",
+   "step": null,
+   "start": 87.933,
+   "end": 103.033,
+   "duration": 15.1,
+   "start_frame": 2638,
+   "frames": 453,
+   "target": 12,
+   "narration": "It opens in 1931, in the middle of the Great Depression. Most of the offices sit empty. New Yorkers call it the Empty State Building. They built it faster than they could fill it.",
+   "visual": "Night. Windows light up across the tower, then most go dark, leaving a few scattered lights. Slow push in on one lit window. Fade out.",
+   "cues": {
+    "start": 0.0,
+    "end": 15.1,
+    "dark": 5.527,
+    "fade": 13.347
+   },
+   "sfx": [
+    {
+     "name": "wind",
+     "t": 87.933,
+     "dur": 15.1,
+     "gain": -21
+    },
+    {
+     "name": "ticks",
+     "t": 93.46,
+     "dur": 2.6,
+     "gain": -20
+    }
+   ],
+   "words": [
+    {
+     "text": "It",
+     "start": 0.187,
+     "end": 0.287
+    },
+    {
+     "text": "opens",
+     "start": 0.287,
+     "end": 0.767
+    },
+    {
+     "text": "in",
+     "start": 0.767,
+     "end": 1.107
+    },
+    {
+     "text": "1931,",
+     "start": 1.107,
+     "end": 2.307
+    },
+    {
+     "text": "in",
+     "start": 2.307,
+     "end": 3.347
+    },
+    {
+     "text": "the",
+     "start": 3.347,
+     "end": 3.467
+    },
+    {
+     "text": "middle",
+     "start": 3.467,
+     "end": 3.667
+    },
+    {
+     "text": "of",
+     "start": 3.667,
+     "end": 3.907
+    },
+    {
+     "text": "the",
+     "start": 3.907,
+     "end": 4.027
+    },
+    {
+     "text": "Great",
+     "start": 4.027,
+     "end": 4.287
+    },
+    {
+     "text": "Depression.",
+     "start": 4.287,
+     "end": 4.867
+    },
+    {
+     "text": "Most",
+     "start": 5.727,
+     "end": 5.907
+    },
+    {
+     "text": "of",
+     "start": 5.907,
+     "end": 6.067
+    },
+    {
+     "text": "the",
+     "start": 6.067,
+     "end": 6.167
+    },
+    {
+     "text": "offices",
+     "start": 6.167,
+     "end": 6.687
+    },
+    {
+     "text": "sit",
+     "start": 6.687,
+     "end": 7.107
+    },
+    {
+     "text": "empty.",
+     "start": 7.107,
+     "end": 7.607
+    },
+    {
+     "text": "New",
+     "start": 8.147,
+     "end": 8.387
+    },
+    {
+     "text": "Yorkers",
+     "start": 8.387,
+     "end": 8.727
+    },
+    {
+     "text": "call",
+     "start": 8.727,
+     "end": 9.247
+    },
+    {
+     "text": "it",
+     "start": 9.247,
+     "end": 9.487
+    },
+    {
+     "text": "the",
+     "start": 9.487,
+     "end": 9.667
+    },
+    {
+     "text": "Empty",
+     "start": 9.667,
+     "end": 10.067
+    },
+    {
+     "text": "State",
+     "start": 10.067,
+     "end": 10.407
+    },
+    {
+     "text": "Building.",
+     "start": 10.407,
+     "end": 10.947
+    },
+    {
+     "text": "They",
+     "start": 11.547,
+     "end": 11.727
+    },
+    {
+     "text": "built",
+     "start": 11.727,
+     "end": 11.987
+    },
+    {
+     "text": "it",
+     "start": 11.987,
+     "end": 12.167
+    },
+    {
+     "text": "faster",
+     "start": 12.167,
+     "end": 12.527
+    },
+    {
+     "text": "than",
+     "start": 12.527,
+     "end": 12.967
+    },
+    {
+     "text": "they",
+     "start": 12.967,
+     "end": 13.167
+    },
+    {
+     "text": "could",
+     "start": 13.167,
+     "end": 13.347
+    },
+    {
+     "text": "fill",
+     "start": 13.347,
+     "end": 13.647
+    },
+    {
+     "text": "it.",
+     "start": 13.647,
+     "end": 13.787
+    }
+   ]
+  }
+ ]
+}

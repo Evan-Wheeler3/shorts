@@ -22,7 +22,7 @@ def main(vid):
     voice *= db(VOICE_LUFS - lufs(np.stack([voice, voice], 1)))   # loudness as heard in the stereo programme
     # voice activity envelope -> duck curve (fast attack, slow release)
     act = uniform_filter1d((maximum_filter1d(np.abs(voice), int(0.35 * SR)) > db(-42)).astype("float64"), int(0.25 * SR))
-    mus = music.make(L["duration"], L["shots"])
+    mus = music.make(L["duration"], L["shots"], L.get("music") or {})
     mus *= db((VOICE_LUFS - MUSIC_OPEN) - lufs(mus))
     duck = db(-(MUSIC_UNDER_VOICE - MUSIC_OPEN) * act)
     mus = mus * duck[:, None]

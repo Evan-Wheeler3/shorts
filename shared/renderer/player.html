@@ -9,7 +9,8 @@ const q = new URLSearchParams(location.search);
 const vid = q.get('video'), scale = parseFloat(q.get('scale') || '1'), ao = q.get('ao') !== '0';
 try {
   const list = await (await fetch(`/videos/${vid}/output/shotlist.retimed.json`)).json();
-  const stage = await createStage({ canvas: document.getElementById('c'), W: list.width, H: list.height, scale, ao });
+  const opts = { canvas: document.getElementById('c'), W: list.width, H: list.height, scale, ao };
+  const stage = list.renderer === '2d' ? await (await import('/shared/web/stage2d.js')).createStage2D(opts) : await createStage(opts);
   const mod = await import(`/videos/${vid}/scene.js`);
   const video = await mod.create(stage, list);
   window.renderFrame = (f) => {

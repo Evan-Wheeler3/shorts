@@ -52,7 +52,7 @@ def main(vid):
     th = s.get("thumbnail", {"shot": 1, "cue": "start", "offset": 0})
     ts = next(o for o in out if o["id"] == th["shot"])
     thumb = ts["start_frame"] + int(round((ts["cues"][th.get("cue", "start")] + th.get("offset", 0)) * fps))
-    res = {"id": s["id"], "thumbnail_frame": min(thumb, total_frames - 1), "title": s["title"], "fps": fps, "width": s["width"], "height": s["height"],
+    res = {"id": s["id"], "renderer": s.get("renderer", "3d"), "music": s.get("music", {}), "thumbnail_frame": min(thumb, total_frames - 1), "title": s["title"], "fps": fps, "width": s["width"], "height": s["height"],
            "duration": round(total_frames / fps, 3), "frames": total_frames,
            "narration_duration": W["duration"], "shots": out}
     od = video_dir(vid) / "output"; od.mkdir(exist_ok=True)

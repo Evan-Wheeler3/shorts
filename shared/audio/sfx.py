@@ -140,6 +140,50 @@ def gull(d=None, seed=0):
         place(x, (np.sin(ph) + 0.5 * np.sin(2 * ph)) * np.sin(np.pi * s / 0.3) * (1 - 0.2 * k), st)
     return norm(reverb(x, 1.5, 0.45))
 
+# ---- construction / city set
+def truck(d=3, seed=0):
+    t = T(d); x = lp(np.sign(np.sin(2 * np.pi * 46 * t + 0.4 * np.sin(2 * np.pi * 5 * t))) + 0.5 * rng(71).standard_normal(len(t)), 300, 3)
+    return norm(x * (0.75 + 0.25 * np.sin(2 * np.pi * 0.43 * t)) * env(len(t), 0.4, 0.5))
+def honk(d=None, seed=0):
+    t = T(0.38); x = sum(np.sign(np.sin(2 * np.pi * f * t)) for f in (392, 494)); return norm(reverb(lp(x, 2200) * env(len(t), 0.01, 0.06), 0.6, 0.3))
+def tink(d=None, seed=0):
+    t = T(0.5); return norm(sum(a * np.sin(2 * np.pi * f * t) * np.exp(-t * dc) for f, a, dc in [(1650, 1, 14), (2890, 0.5, 20), (4310, 0.3, 28)]) + 0.4 * hp(rng(73).standard_normal(len(t)), 3000) * np.exp(-t * 150))
+def ticks(d=1.5, seed=0):
+    x = np.zeros(int(d * SR)); k = 0
+    while k * 0.17 < d - 0.1:
+        s = T(0.1); place(x, (np.sin(2 * np.pi * (900 + 40 * (k % 5)) * s) * np.exp(-s * 60) + 0.5 * hp(rng(75 + k).standard_normal(len(s)), 2500) * np.exp(-s * 140)), k * 0.17); k += 1
+    return norm(x)
+def cart(d=3, seed=0):
+    t = T(d); r = rng(77); x = lp(r.standard_normal(len(t)), 420) * (0.7 + 0.3 * np.sin(2 * np.pi * 9 * t)); k = 0.0
+    while k < d - 0.1:
+        s = T(0.06); place(x, 0.8 * np.sin(2 * np.pi * 1300 * s) * np.exp(-s * 90), k); k += 0.31
+    return norm(x * env(len(t), 0.15, 0.3))
+def bricks(d=2, seed=0):
+    x = np.zeros(int(d * SR)); r = rng(79 + int(d * 10))
+    for k in range(int(d * 22)):
+        s = T(0.07); f = r.uniform(500, 1500); place(x, (np.sin(2 * np.pi * f * s) * 0.6 + bp(r.standard_normal(len(s)), 600, 3000)) * np.exp(-s * r.uniform(50, 110)) * r.uniform(0.3, 1), r.uniform(0, d - 0.08))
+    return norm(x * env(len(x), 0.05, 0.25))
+def whoosh(d=None, seed=0):
+    t = T(0.55); n = rng(81).standard_normal(len(t)); out = np.zeros(len(t))
+    for k, (lo, hi) in enumerate([(300, 900), (700, 2000), (1500, 4500)]):
+        out += bp(n, lo, hi) * np.clip(1 - np.abs(t / 0.55 * 3 - k - 0.5) / 1.1, 0, 1)
+    return norm(out * np.sin(np.pi * t / 0.55) ** 1.5)
+def hammer(d=1.2, seed=0):
+    x = np.zeros(int(d * SR)); r = rng(83); k = 0
+    while k * 0.075 < d - 0.08:
+        s = T(0.07); place(x, (np.sin(2 * np.pi * 240 * s) + 0.7 * np.sin(2 * np.pi * 1900 * s) + 0.5 * hp(r.standard_normal(len(s)), 2000)) * np.exp(-s * 70) * r.uniform(0.75, 1), k * 0.075); k += 1
+    return norm(reverb(x * env(len(x), 0.02, 0.1), 0.5, 0.2))
+def rivets(d=4, seed=0):
+    """distant riveting across the frame: scattered tinks and short hammer bursts"""
+    x = np.zeros(int(d * SR) + SR); r = rng(85 + int(d)); k = 0.0; tk, hm = tink(), hammer(0.45)
+    while k < d - 0.3:
+        place(x, (tk if r.uniform() < 0.5 else hm) * r.uniform(0.3, 1), k); k += r.uniform(0.18, 0.5)
+    x = x[: int(d * SR)]; return norm(reverb(x * env(len(x), 0.2, 0.5), 1.0, 0.35))
+def wind(d=4, seed=0):
+    t = T(d); n = rng(87 + int(d)).standard_normal(len(t))
+    x = bp(n, 250, 900) * (0.55 + 0.45 * np.sin(2 * np.pi * 0.21 * t + 1)) + 0.4 * bp(n, 900, 1800) * (0.5 + 0.5 * np.sin(2 * np.pi * 0.13 * t))
+    return norm(x * env(len(t), 0.8, 1.0))
+
 def render(name, dur=None):
     fn = globals()[name]
     return fn(dur) if dur else fn()

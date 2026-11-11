@@ -7,7 +7,8 @@ to it.
 
 ```bash
 scripts/setup.sh        # once: .venv, node_modules, model cache - all inside this repo
-./build.sh alcatraz     # script -> narration -> timings -> captions -> mix -> render -> MP4
+./build.sh alcatraz     # script -> narration -> timings -> captions -> mix -> render -> MP4 (3D low-poly)
+./build.sh empire-state # same pipeline, 2D paper-cutaway style
 ```
 
 Output lands in `videos/alcatraz/output/`:
@@ -25,6 +26,7 @@ Output lands in `videos/alcatraz/output/`:
 | job | tool | why |
 | --- | --- | --- |
 | 3D render | three.js in headless Chromium (Playwright), frames streamed to ffmpeg | No Blender needed, identical on macOS (Metal) and GPU-less Linux (software GL), deterministic frame-by-frame, nothing but an MP4 touches the disk |
+| 2D render | Canvas2D "paper cutaway" stage in the same headless browser (`"renderer": "2d"` in `script.json`) | Same pipeline and timing, far faster to author and render |
 | Voice (real) | Chatterbox, zero-shot clone of `voice/reference.wav` | Free, MIT, runs on Apple Silicon (MPS) |
 | Voice (placeholder) | Kokoro via `kokoro-onnx` | Apache 2.0, CPU-only, no PyTorch |
 | Word timestamps | faster-whisper, mapped back onto the exact script words | Works for any narration file, including one made elsewhere |
@@ -40,7 +42,7 @@ Disk: about 1.5 GB for the base setup; the cloned voice adds roughly 6 GB (see `
 build.sh                    one-command rebuild
 scripts/                    setup.sh, setup_voice.sh, test_voice.sh, QA still helpers
 shared/
-  web/                      core.js (palette, easing, low-poly helpers), figure.js (blank-faced rig), stage.js (renderer, sky, fog, overlay labels)
+  web/                      core.js (palette, easing, low-poly helpers), figure.js (blank-faced rig), stage.js (3D renderer, sky, fog, overlay labels), stage2d.js (2D paper stage)
   renderer/                 render.mjs (headless frame streamer), player.html
   audio/                    tts_kokoro.py, tts_chatterbox.py, assemble.py, align.py, retime.py, sfx.py, music.py, mix.py
   captions/captions.py      SRT + ASS from word timestamps
@@ -96,7 +98,15 @@ have blank faces and are told apart by collar and cuff accents. One smooth camer
 pop-in scale-ups for objects, a `STEP N` label per step, word-by-word captions with the current
 word in amber, all inside the Shorts safe area (clear of the bottom 20% and right 12%).
 
+## Videos
+
+| id | title | style |
+| --- | --- | --- |
+| `alcatraz` | How to Escape from Alcatraz | 3D low-poly diorama |
+| `empire-state` | How to Build the Empire State Building in a Year | 2D paper cutaway on a blueprint |
+
 ## Adding a video
 
-Copy `videos/alcatraz` to `videos/<new-id>`, rewrite `script.json`, and build the set and shots in
-`set.js` / `props.js` / `scene.js` using the helpers in `shared/web`. `./build.sh <new-id>` does the rest.
+Copy `videos/alcatraz` (3D) or `videos/empire-state` (2D) to `videos/<new-id>`, rewrite `script.json`, and
+build the shots in `scene.js` using the helpers in `shared/web`. Optional `music` settings in `script.json`
+(chords, pulse, which shots build and release) shape the synthesised score. `./build.sh <new-id>` does the rest.
