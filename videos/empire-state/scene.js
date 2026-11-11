@@ -239,7 +239,7 @@ export async function create(st, list) {
   }
   // ================================================================= SHOT 4: THE FLOOR
   function shot4(t, c, d) {
-    const N = 12, yF = fy(N), cam = mixCam({ x: -19, y: yF - 2.6, z: 42 }, { x: 13.5, y: yF - 2.6, z: 42 }, eseg(t, c.track - 0.2, c.roll + 2.2));
+    const N = 12, yF = fy(N), cam = mixCam({ x: -19, y: yF - 2.6, z: 42 }, { x: 16.5, y: yF - 2.6, z: 42 }, eseg(t, c.track - 0.2, c.roll + 2.2));
     backdrop(cam);
     st.world(cam, () => {
       ghost(cam, 0.1);
@@ -312,7 +312,7 @@ export async function create(st, list) {
     const out = eseg(t, c.cools + 0.35, d - 0.6);
     const hm = pulse(t, c.hammer, c.hammer + 1.3, 0.08);
     const sh = 0.05 * hm * (1 - out);
-    const cam = mixCam({ x: -0.3 + sh * S(t * 95), y: yA - 3.0 + sh * S(t * 121), z: 52 }, { x: 0, y: -128, z: 13 }, out);
+    const cam = mixCam({ x: 0.7 + sh * S(t * 95), y: yA - 3.0 + sh * S(t * 121), z: 46 }, { x: 0, y: -128, z: 13 }, out);
     backdrop(cam);
     st.world(cam, () => {
       ghost(cam, 0.1);
