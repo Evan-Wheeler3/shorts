@@ -222,7 +222,7 @@ export async function create(stage, list) {
     say('y2013', OLD[0] + 2.6, 1.6, OLD[1] + 2.6, pop(t, c.last, 0.4));
     const topY = 0.7 + Math.min(h, 12.5);
     say('b1', OLD[0] + 3.6, topY + 1.3, OLD[1] - 3.6, pop(t, c.billion + 1.2, 0.4) * (1 - sseg(t, c.sold - 0.1, c.sold + 0.2))); say('d3', OLD[0] + 3.6, topY - 1.3, OLD[1] - 3.6, pop(t, c.billion + 1.45, 0.4) * (1 - sseg(t, c.sold - 0.1, c.sold + 0.2)));
-    say('m235', OLD[0] + 4.2, 9.2, OLD[1] - 4.2, pop(t, c.sold + 0.45, 0.4)); say('sold', OLD[0] + 4.2, 6.2, OLD[1] - 4.2, pop(t, c.sold + 0.7, 0.4));
+    say('m235', OLD[0] + 2.4, 9.2, OLD[1] - 2.4, pop(t, c.sold + 0.45, 0.4)); say('sold', OLD[0] + 2.4, 6.2, OLD[1] - 2.4, pop(t, c.sold + 0.7, 0.4));
     hud(MONEY.cost);
   }
   // ================================================================= SHOT 5: THE HEAD START
@@ -236,7 +236,7 @@ export async function create(stage, list) {
       g.visible = true; g.position.set(x, 0.02, 4.1 + (k % 2 ? 0.55 : -0.55)); g.rotation.y = 0;
       for (let j = 0; j < 3; j++) { const m = bars[k * 3 + j], uu = seg(u, 1.5 + j * 0.4, 2.2 + j * 0.4); m.visible = uu > 0 && uu < 1; if (m.visible) { const p = arc([stopX, 1.6, 4.1], VT, uu, 2.4); m.position.set(p[0], p[1], p[2]); m.rotation.set(uu * 6, k, 0); } }
     });
-    say('pre', VAULT[0] + 1.5, 8.6, VAULT[1] - 1.5, pop(t, c.pre, 0.4)); say('preo', VAULT[0] + 1.5, 6.1, VAULT[1] - 1.5, pop(t, c.pre + 0.25, 0.4));
+    say('pre', VAULT[0] + 0.2, 8.6, VAULT[1] - 0.2, pop(t, c.pre, 0.4)); say('preo', VAULT[0] + 0.2, 6.1, VAULT[1] - 0.2, pop(t, c.pre + 0.25, 0.4));
     hud(v, { scale: 1 + 0.04 * pulse(t, c.sales + 0.1, c.sales + 3.4, 0.3) * S(t * 24) });
   }
   // ================================================================= SHOT 6: THE LAUNCH

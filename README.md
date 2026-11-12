@@ -104,9 +104,16 @@ word in amber, all inside the Shorts safe area (clear of the bottom 20% and righ
 | --- | --- | --- |
 | `alcatraz` | How to Escape from Alcatraz | 3D low-poly diorama |
 | `empire-state` | How to Build the Empire State Building in a Year | 2D paper cutaway on a blueprint |
+| `gta6` | How GTA 6 Makes Its Money Back | 3D low-poly isometric city with an on-screen money counter |
 
 ## Adding a video
 
 Copy `videos/alcatraz` (3D) or `videos/empire-state` (2D) to `videos/<new-id>`, rewrite `script.json`, and
 build the shots in `scene.js` using the helpers in `shared/web`. Optional `music` settings in `script.json`
 (chords, pulse, which shots build and release) shape the synthesised score. `./build.sh <new-id>` does the rest.
+
+## Script variables
+
+`script.json` can define `vars` (for example `"days": "7"`) and use `{days}` in narration and visual text.
+Change the value and rebuild to update a countdown; `tts_text` on a shot gives the spoken form when the caption
+text uses digits or symbols the voice reads badly.
