@@ -73,8 +73,14 @@ export async function createStage({ canvas, W, H, scale = 1, ao = true }) {
     const m = new THREE.Mesh(new THREE.PlaneGeometry(760, 300), new THREE.MeshBasicMaterial({ map: tex, transparent: true, depthTest: false, toneMapped: false, side: THREE.DoubleSide }));
     m.rotation.x = Math.PI; m.scale.y = 1; oscene.add(m); m.visible = false; return m;
   }
+  // free-form 2D layer for counters and tags, drawn by the video each frame: overlay.hud.begin() then use .ctx
+  const hudC = document.createElement('canvas'); hudC.width = W; hudC.height = H;
+  const hudTex = new THREE.CanvasTexture(hudC); hudTex.colorSpace = THREE.SRGBColorSpace;
+  const hudM = new THREE.Mesh(new THREE.PlaneGeometry(W, H), new THREE.MeshBasicMaterial({ map: hudTex, transparent: true, depthTest: false, toneMapped: false, side: THREE.DoubleSide }));
+  hudM.rotation.x = Math.PI; hudM.position.set(W / 2, H / 2, 3); hudM.visible = false; oscene.add(hudM);
+  const hud = { ctx: hudC.getContext('2d'), begin() { hud.ctx.setTransform(1, 0, 0, 1, 0, 0); hud.ctx.clearRect(0, 0, W, H); hudM.visible = true; hudTex.needsUpdate = true; return hud.ctx; }, off() { hudM.visible = false; } };
   const overlay = {
-    fade: 0, lids: 1,
+    fade: 0, lids: 1, hud,
     step(shot, t) {
       for (const m of labels.values()) m.visible = false;
       if (!shot.step) return;

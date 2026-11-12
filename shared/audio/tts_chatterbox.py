@@ -41,7 +41,9 @@ def main():
     ref = ROOT / "voice" / "reference.wav"
     if not ref.exists():
         sys.exit("voice/reference.wav is missing - see voice/README.md")
-    s = json.loads((ROOT / "videos" / vid / "script.json").read_text())
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from common import load_script
+    s = load_script(vid)
     cfg = s["voice"]["chatterbox"]
     out = ROOT / "videos" / vid / "build" / "voice"
     out.mkdir(parents=True, exist_ok=True)

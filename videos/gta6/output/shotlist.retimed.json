@@ -1,0 +1,1527 @@
+{
+ "id": "gta6",
+ "renderer": "3d",
+ "music": {
+  "build_shot": 5,
+  "peak_shot": 6,
+  "release_shot": 8,
+  "chords": [
+   [
+    50,
+    57,
+    62,
+    65
+   ],
+   [
+    46,
+    53,
+    58,
+    62
+   ],
+   [
+    53,
+    57,
+    60,
+    65
+   ],
+   [
+    48,
+    55,
+    60,
+    64
+   ]
+  ],
+  "pulse_hz": 73.4,
+  "pulse_step": 0.5
+ },
+ "vars": {
+  "days": "7",
+  "days_next": "6",
+  "days_words": "seven"
+ },
+ "thumbnail_frame": 2102,
+ "title": "How GTA 6 Makes Its Money Back",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "duration": 89.333,
+ "frames": 2680,
+ "narration_duration": 88.35,
+ "shots": [
+  {
+   "id": 1,
+   "name": "HOOK",
+   "step": null,
+   "start": 0.0,
+   "end": 13.4,
+   "duration": 13.4,
+   "start_frame": 0,
+   "frames": 402,
+   "target": 12,
+   "narration": "Rockstar has spent an estimated $1.5 billion building GTA 6. It's been 13 years since the last one. And it comes out in 7 days. So how do they make that money back?",
+   "visual": "Dark empty ground. The counter slams in, red: -$1,500,000,000. City blocks pop up one by one. A calendar tile flips to '7 DAYS'.",
+   "cues": {
+    "start": 0.0,
+    "end": 13.4,
+    "spent": 1.44,
+    "build": 3.72,
+    "years": 6.78,
+    "days": 9.42,
+    "how": 11.36
+   },
+   "sfx": [
+    {
+     "name": "snap",
+     "t": 1.54,
+     "dur": null,
+     "gain": -9
+    },
+    {
+     "name": "ticks",
+     "t": 1.59,
+     "dur": 1.2,
+     "gain": -15
+    },
+    {
+     "name": "ticks",
+     "t": 3.72,
+     "dur": 2.6,
+     "gain": -19
+    },
+    {
+     "name": "pop",
+     "t": 6.78,
+     "dur": null,
+     "gain": -14
+    },
+    {
+     "name": "whoosh",
+     "t": 9.42,
+     "dur": null,
+     "gain": -15
+    },
+    {
+     "name": "pop",
+     "t": 9.77,
+     "dur": null,
+     "gain": -13
+    }
+   ],
+   "words": [
+    {
+     "text": "Rockstar",
+     "start": 0.0,
+     "end": 0.82
+    },
+    {
+     "text": "has",
+     "start": 0.82,
+     "end": 1.08
+    },
+    {
+     "text": "spent",
+     "start": 1.08,
+     "end": 1.36
+    },
+    {
+     "text": "an",
+     "start": 1.36,
+     "end": 1.54
+    },
+    {
+     "text": "estimated",
+     "start": 1.54,
+     "end": 2.12
+    },
+    {
+     "text": "$1.5",
+     "start": 2.12,
+     "end": 2.98
+    },
+    {
+     "text": "billion",
+     "start": 2.98,
+     "end": 3.38
+    },
+    {
+     "text": "building",
+     "start": 3.92,
+     "end": 4.42
+    },
+    {
+     "text": "GTA",
+     "start": 4.42,
+     "end": 5.04
+    },
+    {
+     "text": "6.",
+     "start": 5.04,
+     "end": 5.6
+    },
+    {
+     "text": "It's",
+     "start": 6.16,
+     "end": 6.42
+    },
+    {
+     "text": "been",
+     "start": 6.42,
+     "end": 6.6
+    },
+    {
+     "text": "13",
+     "start": 6.6,
+     "end": 7.18
+    },
+    {
+     "text": "years",
+     "start": 7.18,
+     "end": 7.62
+    },
+    {
+     "text": "since",
+     "start": 7.62,
+     "end": 7.92
+    },
+    {
+     "text": "the",
+     "start": 7.92,
+     "end": 8.12
+    },
+    {
+     "text": "last",
+     "start": 8.12,
+     "end": 8.4
+    },
+    {
+     "text": "one.",
+     "start": 8.4,
+     "end": 8.78
+    },
+    {
+     "text": "And",
+     "start": 9.12,
+     "end": 9.3
+    },
+    {
+     "text": "it",
+     "start": 9.3,
+     "end": 9.42
+    },
+    {
+     "text": "comes",
+     "start": 9.42,
+     "end": 9.62
+    },
+    {
+     "text": "out",
+     "start": 9.62,
+     "end": 9.94
+    },
+    {
+     "text": "in",
+     "start": 9.94,
+     "end": 10.18
+    },
+    {
+     "text": "7",
+     "start": 10.18,
+     "end": 10.48
+    },
+    {
+     "text": "days.",
+     "start": 10.48,
+     "end": 10.84
+    },
+    {
+     "text": "So",
+     "start": 11.46,
+     "end": 11.66
+    },
+    {
+     "text": "how",
+     "start": 11.66,
+     "end": 11.9
+    },
+    {
+     "text": "do",
+     "start": 11.9,
+     "end": 12.08
+    },
+    {
+     "text": "they",
+     "start": 12.08,
+     "end": 12.2
+    },
+    {
+     "text": "make",
+     "start": 12.2,
+     "end": 12.44
+    },
+    {
+     "text": "that",
+     "start": 12.44,
+     "end": 12.68
+    },
+    {
+     "text": "money",
+     "start": 12.68,
+     "end": 12.96
+    },
+    {
+     "text": "back?",
+     "start": 12.96,
+     "end": 13.28
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name": "THE PRICE",
+   "step": null,
+   "start": 13.4,
+   "end": 24.333,
+   "duration": 10.933,
+   "start_frame": 402,
+   "frames": 328,
+   "target": 11,
+   "narration": "Start with the price. $80 a copy. But the store that sells it keeps a cut, around 30 percent. So Rockstar's side sees about $56.",
+   "visual": "A giant game case lands in the plaza with an '$80' tag. A slice of the coin stack slides into a storefront. The rest reads '$56'.",
+   "cues": {
+    "start": 0.0,
+    "end": 10.933,
+    "price": 0.4,
+    "eighty": 1.42,
+    "cut": 4.76,
+    "left": 8.78
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "t": 13.8,
+     "dur": null,
+     "gain": -16
+    },
+    {
+     "name": "snap",
+     "t": 14.2,
+     "dur": null,
+     "gain": -12
+    },
+    {
+     "name": "pop",
+     "t": 14.82,
+     "dur": null,
+     "gain": -14
+    },
+    {
+     "name": "tink",
+     "t": 18.46,
+     "dur": null,
+     "gain": -15
+    },
+    {
+     "name": "tink",
+     "t": 18.71,
+     "dur": null,
+     "gain": -16
+    },
+    {
+     "name": "tink",
+     "t": 18.96,
+     "dur": null,
+     "gain": -17
+    },
+    {
+     "name": "pop",
+     "t": 22.48,
+     "dur": null,
+     "gain": -14
+    }
+   ],
+   "words": [
+    {
+     "text": "Start",
+     "start": 0.12,
+     "end": 0.36
+    },
+    {
+     "text": "with",
+     "start": 0.36,
+     "end": 0.56
+    },
+    {
+     "text": "the",
+     "start": 0.56,
+     "end": 0.7
+    },
+    {
+     "text": "price.",
+     "start": 0.7,
+     "end": 1.08
+    },
+    {
+     "text": "$80",
+     "start": 1.64,
+     "end": 1.92
+    },
+    {
+     "text": "a",
+     "start": 1.92,
+     "end": 2.48
+    },
+    {
+     "text": "copy.",
+     "start": 2.48,
+     "end": 2.94
+    },
+    {
+     "text": "But",
+     "start": 3.3,
+     "end": 3.56
+    },
+    {
+     "text": "the",
+     "start": 3.56,
+     "end": 3.72
+    },
+    {
+     "text": "store",
+     "start": 3.72,
+     "end": 4.02
+    },
+    {
+     "text": "that",
+     "start": 4.02,
+     "end": 4.28
+    },
+    {
+     "text": "sells",
+     "start": 4.28,
+     "end": 4.6
+    },
+    {
+     "text": "it",
+     "start": 4.6,
+     "end": 4.86
+    },
+    {
+     "text": "keeps",
+     "start": 4.86,
+     "end": 5.12
+    },
+    {
+     "text": "a",
+     "start": 5.12,
+     "end": 5.34
+    },
+    {
+     "text": "cut,",
+     "start": 5.34,
+     "end": 5.6
+    },
+    {
+     "text": "around",
+     "start": 6.02,
+     "end": 6.18
+    },
+    {
+     "text": "30",
+     "start": 6.18,
+     "end": 7.22
+    },
+    {
+     "text": "percent.",
+     "start": 7.22,
+     "end": 7.27
+    },
+    {
+     "text": "So",
+     "start": 7.22,
+     "end": 7.78
+    },
+    {
+     "text": "Rockstar's",
+     "start": 7.78,
+     "end": 8.56
+    },
+    {
+     "text": "side",
+     "start": 8.56,
+     "end": 8.88
+    },
+    {
+     "text": "sees",
+     "start": 8.88,
+     "end": 9.32
+    },
+    {
+     "text": "about",
+     "start": 9.32,
+     "end": 9.7
+    },
+    {
+     "text": "$56.",
+     "start": 9.7,
+     "end": 10.42
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "THE TARGET",
+   "step": null,
+   "start": 24.333,
+   "end": 30.433,
+   "duration": 6.1,
+   "start_frame": 730,
+   "frames": 183,
+   "target": 7,
+   "narration": "Which means they need to sell about 27 million copies just to get back to zero.",
+   "visual": "Tiny buyers queue through the streets, snaking around every block. '27 MILLION' pops in. The counter barely moves.",
+   "cues": {
+    "start": 0.0,
+    "end": 6.1,
+    "queue": 0.867,
+    "million": 1.977,
+    "zero": 5.407
+   },
+   "sfx": [
+    {
+     "name": "footsteps",
+     "t": 25.2,
+     "dur": 5.233,
+     "gain": -17
+    },
+    {
+     "name": "pop",
+     "t": 26.31,
+     "dur": null,
+     "gain": -13
+    }
+   ],
+   "words": [
+    {
+     "text": "Which",
+     "start": 0.187,
+     "end": 0.467
+    },
+    {
+     "text": "means",
+     "start": 0.467,
+     "end": 0.787
+    },
+    {
+     "text": "they",
+     "start": 0.787,
+     "end": 1.067
+    },
+    {
+     "text": "need",
+     "start": 1.067,
+     "end": 1.287
+    },
+    {
+     "text": "to",
+     "start": 1.287,
+     "end": 1.507
+    },
+    {
+     "text": "sell",
+     "start": 1.507,
+     "end": 1.747
+    },
+    {
+     "text": "about",
+     "start": 1.747,
+     "end": 2.127
+    },
+    {
+     "text": "27",
+     "start": 2.127,
+     "end": 2.947
+    },
+    {
+     "text": "million",
+     "start": 2.947,
+     "end": 3.407
+    },
+    {
+     "text": "copies",
+     "start": 3.407,
+     "end": 3.987
+    },
+    {
+     "text": "just",
+     "start": 3.987,
+     "end": 4.747
+    },
+    {
+     "text": "to",
+     "start": 4.747,
+     "end": 4.987
+    },
+    {
+     "text": "get",
+     "start": 4.987,
+     "end": 5.107
+    },
+    {
+     "text": "back",
+     "start": 5.107,
+     "end": 5.387
+    },
+    {
+     "text": "to",
+     "start": 5.387,
+     "end": 5.607
+    },
+    {
+     "text": "zero.",
+     "start": 5.607,
+     "end": 5.887
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "THE BASELINE",
+   "step": null,
+   "start": 30.433,
+   "end": 42.333,
+   "duration": 11.9,
+   "start_frame": 913,
+   "frames": 357,
+   "target": 12,
+   "narration": "Is that a lot? The last game, GTA 5, made $1 billion in its first three days. It has sold 235 million copies. And it's still selling.",
+   "visual": "An older district marked '2013'. One tower shoots up to '$1B' in three quick beats, then keeps growing. '235M' pops in.",
+   "cues": {
+    "start": 0.0,
+    "end": 11.9,
+    "last": 1.307,
+    "billion": 3.647,
+    "sold": 7.187,
+    "still": 10.887
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "t": 31.74,
+     "dur": null,
+     "gain": -16
+    },
+    {
+     "name": "snap",
+     "t": 34.33,
+     "dur": null,
+     "gain": -13
+    },
+    {
+     "name": "snap",
+     "t": 34.68,
+     "dur": null,
+     "gain": -12
+    },
+    {
+     "name": "snap",
+     "t": 35.03,
+     "dur": null,
+     "gain": -11
+    },
+    {
+     "name": "pop",
+     "t": 35.28,
+     "dur": null,
+     "gain": -13
+    },
+    {
+     "name": "sweep",
+     "t": 37.62,
+     "dur": 2.2,
+     "gain": -20
+    },
+    {
+     "name": "pop",
+     "t": 38.12,
+     "dur": null,
+     "gain": -13
+    }
+   ],
+   "words": [
+    {
+     "text": "Is",
+     "start": 0.167,
+     "end": 0.247
+    },
+    {
+     "text": "that",
+     "start": 0.247,
+     "end": 0.467
+    },
+    {
+     "text": "a",
+     "start": 0.467,
+     "end": 0.607
+    },
+    {
+     "text": "lot?",
+     "start": 0.607,
+     "end": 0.887
+    },
+    {
+     "text": "The",
+     "start": 1.507,
+     "end": 1.607
+    },
+    {
+     "text": "last",
+     "start": 1.607,
+     "end": 1.887
+    },
+    {
+     "text": "game,",
+     "start": 1.887,
+     "end": 2.307
+    },
+    {
+     "text": "GTA",
+     "start": 2.607,
+     "end": 2.867
+    },
+    {
+     "text": "5,",
+     "start": 2.867,
+     "end": 3.467
+    },
+    {
+     "text": "made",
+     "start": 3.647,
+     "end": 3.867
+    },
+    {
+     "text": "$1",
+     "start": 3.867,
+     "end": 4.167
+    },
+    {
+     "text": "billion",
+     "start": 4.167,
+     "end": 4.587
+    },
+    {
+     "text": "in",
+     "start": 5.087,
+     "end": 5.307
+    },
+    {
+     "text": "its",
+     "start": 5.307,
+     "end": 5.447
+    },
+    {
+     "text": "first",
+     "start": 5.447,
+     "end": 5.707
+    },
+    {
+     "text": "three",
+     "start": 5.707,
+     "end": 6.047
+    },
+    {
+     "text": "days.",
+     "start": 6.047,
+     "end": 6.507
+    },
+    {
+     "text": "It",
+     "start": 7.027,
+     "end": 7.127
+    },
+    {
+     "text": "has",
+     "start": 7.127,
+     "end": 7.287
+    },
+    {
+     "text": "sold",
+     "start": 7.287,
+     "end": 7.587
+    },
+    {
+     "text": "235",
+     "start": 7.587,
+     "end": 8.767
+    },
+    {
+     "text": "million",
+     "start": 8.767,
+     "end": 9.587
+    },
+    {
+     "text": "copies.",
+     "start": 9.587,
+     "end": 10.187
+    },
+    {
+     "text": "And",
+     "start": 10.667,
+     "end": 10.907
+    },
+    {
+     "text": "it's",
+     "start": 10.907,
+     "end": 11.087
+    },
+    {
+     "text": "still",
+     "start": 11.087,
+     "end": 11.287
+    },
+    {
+     "text": "selling.",
+     "start": 11.287,
+     "end": 11.787
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "THE HEAD START",
+   "step": null,
+   "start": 42.333,
+   "end": 56.967,
+   "duration": 14.633,
+   "start_frame": 1270,
+   "frames": 439,
+   "target": 13,
+   "narration": "And GTA 6 has a head start. One estimate puts pre-orders above 10 million copies. That's about $1 billion in sales before anyone has played it. The company's own CEO calls it unprecedented.",
+   "visual": "Night, shops closed. Armoured trucks arrive anyway and unload into the vault. The red counter climbs to about -$800,000,000.",
+   "cues": {
+    "start": 0.0,
+    "end": 14.633,
+    "head": 1.487,
+    "pre": 4.347,
+    "sales": 6.887,
+    "ceo": 13.707
+   },
+   "sfx": [
+    {
+     "name": "truck",
+     "t": 43.82,
+     "dur": 12.22,
+     "gain": -17
+    },
+    {
+     "name": "pop",
+     "t": 46.68,
+     "dur": null,
+     "gain": -14
+    },
+    {
+     "name": "ticks",
+     "t": 49.22,
+     "dur": 3.0,
+     "gain": -16
+    },
+    {
+     "name": "tink",
+     "t": 49.62,
+     "dur": null,
+     "gain": -15
+    },
+    {
+     "name": "tink",
+     "t": 50.42,
+     "dur": null,
+     "gain": -15
+    },
+    {
+     "name": "tink",
+     "t": 51.22,
+     "dur": null,
+     "gain": -15
+    }
+   ],
+   "words": [
+    {
+     "text": "And",
+     "start": 0.147,
+     "end": 0.267
+    },
+    {
+     "text": "GTA",
+     "start": 0.267,
+     "end": 0.827
+    },
+    {
+     "text": "6",
+     "start": 0.827,
+     "end": 1.227
+    },
+    {
+     "text": "has",
+     "start": 1.227,
+     "end": 1.527
+    },
+    {
+     "text": "a",
+     "start": 1.527,
+     "end": 1.687
+    },
+    {
+     "text": "head",
+     "start": 1.687,
+     "end": 1.847
+    },
+    {
+     "text": "start.",
+     "start": 1.847,
+     "end": 2.247
+    },
+    {
+     "text": "One",
+     "start": 2.907,
+     "end": 3.187
+    },
+    {
+     "text": "estimate",
+     "start": 3.187,
+     "end": 3.587
+    },
+    {
+     "text": "puts",
+     "start": 3.587,
+     "end": 3.947
+    },
+    {
+     "text": "pre-orders",
+     "start": 3.947,
+     "end": 4.547
+    },
+    {
+     "text": "above",
+     "start": 4.547,
+     "end": 4.927
+    },
+    {
+     "text": "10",
+     "start": 4.927,
+     "end": 5.367
+    },
+    {
+     "text": "million",
+     "start": 5.367,
+     "end": 5.687
+    },
+    {
+     "text": "copies.",
+     "start": 5.687,
+     "end": 6.347
+    },
+    {
+     "text": "That's",
+     "start": 6.887,
+     "end": 7.247
+    },
+    {
+     "text": "about",
+     "start": 7.247,
+     "end": 7.487
+    },
+    {
+     "text": "$1",
+     "start": 7.487,
+     "end": 7.947
+    },
+    {
+     "text": "billion",
+     "start": 7.947,
+     "end": 8.407
+    },
+    {
+     "text": "in",
+     "start": 8.907,
+     "end": 9.187
+    },
+    {
+     "text": "sales",
+     "start": 9.187,
+     "end": 9.567
+    },
+    {
+     "text": "before",
+     "start": 9.567,
+     "end": 10.007
+    },
+    {
+     "text": "anyone",
+     "start": 10.007,
+     "end": 10.347
+    },
+    {
+     "text": "has",
+     "start": 10.347,
+     "end": 10.627
+    },
+    {
+     "text": "played",
+     "start": 10.627,
+     "end": 10.887
+    },
+    {
+     "text": "it.",
+     "start": 10.887,
+     "end": 11.167
+    },
+    {
+     "text": "The",
+     "start": 11.587,
+     "end": 11.847
+    },
+    {
+     "text": "company's",
+     "start": 11.847,
+     "end": 12.347
+    },
+    {
+     "text": "own",
+     "start": 12.347,
+     "end": 12.667
+    },
+    {
+     "text": "CEO",
+     "start": 12.667,
+     "end": 13.147
+    },
+    {
+     "text": "calls",
+     "start": 13.147,
+     "end": 13.747
+    },
+    {
+     "text": "it",
+     "start": 13.747,
+     "end": 14.007
+    },
+    {
+     "text": "unprecedented.",
+     "start": 14.007,
+     "end": 14.627
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "name": "THE LAUNCH",
+   "step": null,
+   "start": 56.967,
+   "end": 69.7,
+   "duration": 12.733,
+   "start_frame": 1709,
+   "frames": 382,
+   "target": 12,
+   "narration": "Then comes launch. One analyst expects 38 million copies in the first year. Another expects over $3 billion in sales. Either way, the red number turns green.",
+   "visual": "Sunrise. Every shop opens at once and coins stream to the vault from all districts. The counter races through zero and flips green. The city lights up.",
+   "cues": {
+    "start": 0.0,
+    "end": 12.733,
+    "launch": 0.813,
+    "copies": 3.243,
+    "sales": 7.233,
+    "green": 11.503
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "t": 57.78,
+     "dur": null,
+     "gain": -14
+    },
+    {
+     "name": "rivets",
+     "t": 58.08,
+     "dur": 10.39,
+     "gain": -20
+    },
+    {
+     "name": "ticks",
+     "t": 58.18,
+     "dur": 10.29,
+     "gain": -17
+    },
+    {
+     "name": "pop",
+     "t": 60.21,
+     "dur": null,
+     "gain": -14
+    },
+    {
+     "name": "pop",
+     "t": 64.2,
+     "dur": null,
+     "gain": -14
+    },
+    {
+     "name": "snap",
+     "t": 68.77,
+     "dur": null,
+     "gain": -9
+    },
+    {
+     "name": "pipe_clang",
+     "t": 68.79,
+     "dur": null,
+     "gain": -15
+    }
+   ],
+   "words": [
+    {
+     "text": "Then",
+     "start": -0.007,
+     "end": 0.633
+    },
+    {
+     "text": "comes",
+     "start": 0.633,
+     "end": 1.013
+    },
+    {
+     "text": "launch.",
+     "start": 1.013,
+     "end": 1.473
+    },
+    {
+     "text": "One",
+     "start": 2.193,
+     "end": 2.313
+    },
+    {
+     "text": "analyst",
+     "start": 2.313,
+     "end": 2.893
+    },
+    {
+     "text": "expects",
+     "start": 2.893,
+     "end": 3.393
+    },
+    {
+     "text": "38",
+     "start": 3.393,
+     "end": 3.993
+    },
+    {
+     "text": "million",
+     "start": 3.993,
+     "end": 4.613
+    },
+    {
+     "text": "copies",
+     "start": 4.613,
+     "end": 5.073
+    },
+    {
+     "text": "in",
+     "start": 5.073,
+     "end": 5.333
+    },
+    {
+     "text": "the",
+     "start": 5.333,
+     "end": 5.473
+    },
+    {
+     "text": "first",
+     "start": 5.473,
+     "end": 5.673
+    },
+    {
+     "text": "year.",
+     "start": 5.673,
+     "end": 6.073
+    },
+    {
+     "text": "Another",
+     "start": 6.573,
+     "end": 6.793
+    },
+    {
+     "text": "expects",
+     "start": 6.793,
+     "end": 7.333
+    },
+    {
+     "text": "over",
+     "start": 7.333,
+     "end": 7.653
+    },
+    {
+     "text": "$3",
+     "start": 7.653,
+     "end": 8.033
+    },
+    {
+     "text": "billion",
+     "start": 8.033,
+     "end": 8.333
+    },
+    {
+     "text": "in",
+     "start": 8.893,
+     "end": 9.153
+    },
+    {
+     "text": "sales.",
+     "start": 9.153,
+     "end": 9.613
+    },
+    {
+     "text": "Either",
+     "start": 10.253,
+     "end": 10.393
+    },
+    {
+     "text": "way,",
+     "start": 10.393,
+     "end": 10.753
+    },
+    {
+     "text": "the",
+     "start": 10.993,
+     "end": 11.093
+    },
+    {
+     "text": "red",
+     "start": 11.093,
+     "end": 11.293
+    },
+    {
+     "text": "number",
+     "start": 11.293,
+     "end": 11.653
+    },
+    {
+     "text": "turns",
+     "start": 11.653,
+     "end": 12.113
+    },
+    {
+     "text": "green.",
+     "start": 12.113,
+     "end": 12.573
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "name": "THE LONG TAIL",
+   "step": null,
+   "start": 69.7,
+   "end": 78.967,
+   "duration": 9.267,
+   "start_frame": 2091,
+   "frames": 278,
+   "target": 9,
+   "narration": "And that's only the game. The online mode is projected to add around $500 million a year, for as long as people keep playing.",
+   "visual": "Apartment windows blink on across the city, each dropping a small coin toward the vault in a stream that never stops.",
+   "cues": {
+    "start": 0.0,
+    "end": 9.267,
+    "online": 1.92,
+    "year": 4.26,
+    "long": 7.32
+   },
+   "sfx": [
+    {
+     "name": "ticks",
+     "t": 71.62,
+     "dur": 7.347,
+     "gain": -19
+    },
+    {
+     "name": "pop",
+     "t": 73.96,
+     "dur": null,
+     "gain": -14
+    }
+   ],
+   "words": [
+    {
+     "text": "And",
+     "start": 0.16,
+     "end": 0.26
+    },
+    {
+     "text": "that's",
+     "start": 0.26,
+     "end": 0.52
+    },
+    {
+     "text": "only",
+     "start": 0.52,
+     "end": 0.86
+    },
+    {
+     "text": "the",
+     "start": 0.86,
+     "end": 1.06
+    },
+    {
+     "text": "game.",
+     "start": 1.06,
+     "end": 1.4
+    },
+    {
+     "text": "The",
+     "start": 2.04,
+     "end": 2.22
+    },
+    {
+     "text": "online",
+     "start": 2.22,
+     "end": 2.64
+    },
+    {
+     "text": "mode",
+     "start": 2.64,
+     "end": 3.1
+    },
+    {
+     "text": "is",
+     "start": 3.1,
+     "end": 3.3
+    },
+    {
+     "text": "projected",
+     "start": 3.3,
+     "end": 3.72
+    },
+    {
+     "text": "to",
+     "start": 3.72,
+     "end": 4.02
+    },
+    {
+     "text": "add",
+     "start": 4.02,
+     "end": 4.36
+    },
+    {
+     "text": "around",
+     "start": 4.36,
+     "end": 4.72
+    },
+    {
+     "text": "$500",
+     "start": 4.72,
+     "end": 5.36
+    },
+    {
+     "text": "million",
+     "start": 5.36,
+     "end": 5.9
+    },
+    {
+     "text": "a",
+     "start": 6.4,
+     "end": 6.64
+    },
+    {
+     "text": "year,",
+     "start": 6.64,
+     "end": 6.96
+    },
+    {
+     "text": "for",
+     "start": 7.32,
+     "end": 7.54
+    },
+    {
+     "text": "as",
+     "start": 7.54,
+     "end": 7.68
+    },
+    {
+     "text": "long",
+     "start": 7.68,
+     "end": 7.9
+    },
+    {
+     "text": "as",
+     "start": 7.9,
+     "end": 8.12
+    },
+    {
+     "text": "people",
+     "start": 8.12,
+     "end": 8.36
+    },
+    {
+     "text": "keep",
+     "start": 8.36,
+     "end": 8.72
+    },
+    {
+     "text": "playing.",
+     "start": 8.72,
+     "end": 9.14
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "name": "THE ENDING",
+   "step": null,
+   "start": 78.967,
+   "end": 89.333,
+   "duration": 10.367,
+   "start_frame": 2369,
+   "frames": 311,
+   "target": 10,
+   "narration": "The biggest estimate puts the lifetime total at $10 billion. Those are projections. The real number starts counting in 7 days.",
+   "visual": "Pull back to the whole glowing city. The counter shows '$10B?'. The calendar tile flips from 7 to 6. Cut to black.",
+   "cues": {
+    "start": 0.0,
+    "end": 10.367,
+    "ten": 2.353,
+    "proj": 3.953,
+    "real": 6.453,
+    "flip": 8.943
+   },
+   "sfx": [
+    {
+     "name": "sweep",
+     "t": 78.967,
+     "dur": 2.4,
+     "gain": -20
+    },
+    {
+     "name": "pop",
+     "t": 81.52,
+     "dur": null,
+     "gain": -12
+    },
+    {
+     "name": "whoosh",
+     "t": 87.91,
+     "dur": null,
+     "gain": -14
+    },
+    {
+     "name": "snap",
+     "t": 88.21,
+     "dur": null,
+     "gain": -11
+    }
+   ],
+   "words": [
+    {
+     "text": "The",
+     "start": 0.113,
+     "end": 0.233
+    },
+    {
+     "text": "biggest",
+     "start": 0.233,
+     "end": 0.573
+    },
+    {
+     "text": "estimate",
+     "start": 0.573,
+     "end": 1.073
+    },
+    {
+     "text": "puts",
+     "start": 1.073,
+     "end": 1.333
+    },
+    {
+     "text": "the",
+     "start": 1.333,
+     "end": 1.553
+    },
+    {
+     "text": "lifetime",
+     "start": 1.553,
+     "end": 2.073
+    },
+    {
+     "text": "total",
+     "start": 2.073,
+     "end": 2.453
+    },
+    {
+     "text": "at",
+     "start": 2.453,
+     "end": 2.753
+    },
+    {
+     "text": "$10",
+     "start": 2.753,
+     "end": 3.053
+    },
+    {
+     "text": "billion.",
+     "start": 3.053,
+     "end": 3.393
+    },
+    {
+     "text": "Those",
+     "start": 4.053,
+     "end": 4.853
+    },
+    {
+     "text": "are",
+     "start": 4.853,
+     "end": 5.233
+    },
+    {
+     "text": "projections.",
+     "start": 5.233,
+     "end": 5.793
+    },
+    {
+     "text": "The",
+     "start": 6.553,
+     "end": 6.653
+    },
+    {
+     "text": "real",
+     "start": 6.653,
+     "end": 6.953
+    },
+    {
+     "text": "number",
+     "start": 6.953,
+     "end": 7.273
+    },
+    {
+     "text": "starts",
+     "start": 7.273,
+     "end": 7.633
+    },
+    {
+     "text": "counting",
+     "start": 7.633,
+     "end": 8.113
+    },
+    {
+     "text": "in",
+     "start": 8.113,
+     "end": 8.433
+    },
+    {
+     "text": "7",
+     "start": 8.433,
+     "end": 8.693
+    },
+    {
+     "text": "days.",
+     "start": 8.693,
+     "end": 9.073
+    }
+   ]
+  }
+ ]
+}

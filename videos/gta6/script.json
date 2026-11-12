@@ -1,0 +1,524 @@
+{
+  "id": "gta6",
+  "title": "How GTA 6 Makes Its Money Back",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "tail_seconds": 1.0,
+  "vars": {
+    "days": "7",
+    "days_next": "6",
+    "days_words": "seven"
+  },
+  "thumbnail": {
+    "shot": 6,
+    "cue": "green",
+    "offset": 1.6
+  },
+  "music": {
+    "build_shot": 5,
+    "peak_shot": 6,
+    "release_shot": 8,
+    "chords": [
+      [
+        50,
+        57,
+        62,
+        65
+      ],
+      [
+        46,
+        53,
+        58,
+        62
+      ],
+      [
+        53,
+        57,
+        60,
+        65
+      ],
+      [
+        48,
+        55,
+        60,
+        64
+      ]
+    ],
+    "pulse_hz": 73.4,
+    "pulse_step": 0.5
+  },
+  "voice": {
+    "pause_ms": 180,
+    "pause_after_shot_ms": {},
+    "kokoro": {
+      "voice": "am_michael",
+      "speed": 0.98
+    },
+    "chatterbox": {
+      "exaggeration": 0.5,
+      "cfg_weight": 0.5,
+      "temperature": 0.7,
+      "seed_base": 2026
+    }
+  },
+  "shots": [
+    {
+      "id": 1,
+      "name": "HOOK",
+      "target": 12,
+      "narration": "Rockstar has spent an estimated $1.5 billion building GTA 6. It's been 13 years since the last one. And it comes out in {days} days. So how do they make that money back?",
+      "visual": "Dark empty ground. The counter slams in, red: -$1,500,000,000. City blocks pop up one by one. A calendar tile flips to '{days} DAYS'.",
+      "cues": {
+        "spent": {
+          "word": "estimated",
+          "offset": -0.1
+        },
+        "build": {
+          "word": "building",
+          "offset": -0.2
+        },
+        "years": {
+          "word": "years",
+          "offset": -0.4
+        },
+        "days": {
+          "word": "comes",
+          "offset": 0.0
+        },
+        "how": {
+          "word": "so",
+          "offset": -0.1
+        }
+      },
+      "sfx": [
+        {
+          "name": "snap",
+          "at": "spent",
+          "offset": 0.1,
+          "gain": -9
+        },
+        {
+          "name": "ticks",
+          "at": "spent",
+          "offset": 0.15,
+          "dur": 1.2,
+          "gain": -15
+        },
+        {
+          "name": "ticks",
+          "at": "build",
+          "dur": 2.6,
+          "gain": -19
+        },
+        {
+          "name": "pop",
+          "at": "years",
+          "gain": -14
+        },
+        {
+          "name": "whoosh",
+          "at": "days",
+          "gain": -15
+        },
+        {
+          "name": "pop",
+          "at": "days",
+          "offset": 0.35,
+          "gain": -13
+        }
+      ],
+      "tts_text": "Rockstar has spent an estimated one and a half billion dollars building GTA 6. It's been thirteen years since the last one. And it comes out in {days_words} days. So how do they make that money back?"
+    },
+    {
+      "id": 2,
+      "name": "THE PRICE",
+      "target": 11,
+      "narration": "Start with the price. $80 a copy. But the store that sells it keeps a cut, around 30 percent. So Rockstar's side sees about $56.",
+      "visual": "A giant game case lands in the plaza with an '$80' tag. A slice of the coin stack slides into a storefront. The rest reads '$56'.",
+      "cues": {
+        "price": {
+          "word": "price",
+          "offset": -0.3
+        },
+        "eighty": {
+          "word": "a",
+          "offset": -0.5
+        },
+        "cut": {
+          "word": "keeps",
+          "offset": -0.1
+        },
+        "left": {
+          "word": "sees",
+          "offset": -0.1
+        }
+      },
+      "sfx": [
+        {
+          "name": "whoosh",
+          "at": "price",
+          "gain": -16
+        },
+        {
+          "name": "snap",
+          "at": "price",
+          "offset": 0.4,
+          "gain": -12
+        },
+        {
+          "name": "pop",
+          "at": "eighty",
+          "gain": -14
+        },
+        {
+          "name": "tink",
+          "at": "cut",
+          "offset": 0.3,
+          "gain": -15
+        },
+        {
+          "name": "tink",
+          "at": "cut",
+          "offset": 0.55,
+          "gain": -16
+        },
+        {
+          "name": "tink",
+          "at": "cut",
+          "offset": 0.8,
+          "gain": -17
+        },
+        {
+          "name": "pop",
+          "at": "left",
+          "offset": 0.3,
+          "gain": -14
+        }
+      ],
+      "tts_text": "Start with the price. Eighty dollars a copy. But the store that sells it keeps a cut, around thirty percent. So Rockstar's side sees about fifty-six dollars."
+    },
+    {
+      "id": 3,
+      "name": "THE TARGET",
+      "target": 7,
+      "narration": "Which means they need to sell about 27 million copies just to get back to zero.",
+      "visual": "Tiny buyers queue through the streets, snaking around every block. '27 MILLION' pops in. The counter barely moves.",
+      "cues": {
+        "queue": {
+          "word": "need",
+          "offset": -0.2
+        },
+        "million": {
+          "word": "27",
+          "offset": -0.15
+        },
+        "zero": {
+          "word": "zero",
+          "offset": -0.2
+        }
+      },
+      "sfx": [
+        {
+          "name": "footsteps",
+          "at": "queue",
+          "until": "end",
+          "gain": -17
+        },
+        {
+          "name": "pop",
+          "at": "million",
+          "gain": -13
+        }
+      ],
+      "tts_text": "Which means they need to sell about twenty-seven million copies just to get back to zero."
+    },
+    {
+      "id": 4,
+      "name": "THE BASELINE",
+      "target": 12,
+      "narration": "Is that a lot? The last game, GTA 5, made $1 billion in its first three days. It has sold 235 million copies. And it's still selling.",
+      "visual": "An older district marked '2013'. One tower shoots up to '$1B' in three quick beats, then keeps growing. '235M' pops in.",
+      "cues": {
+        "last": {
+          "word": "last",
+          "offset": -0.3
+        },
+        "billion": {
+          "word": "made",
+          "offset": 0.0
+        },
+        "sold": {
+          "word": "sold",
+          "offset": -0.1
+        },
+        "still": {
+          "word": "still",
+          "offset": -0.2
+        }
+      },
+      "sfx": [
+        {
+          "name": "whoosh",
+          "at": "last",
+          "gain": -16
+        },
+        {
+          "name": "snap",
+          "at": "billion",
+          "offset": 0.25,
+          "gain": -13
+        },
+        {
+          "name": "snap",
+          "at": "billion",
+          "offset": 0.6,
+          "gain": -12
+        },
+        {
+          "name": "snap",
+          "at": "billion",
+          "offset": 0.95,
+          "gain": -11
+        },
+        {
+          "name": "pop",
+          "at": "billion",
+          "offset": 1.2,
+          "gain": -13
+        },
+        {
+          "name": "sweep",
+          "at": "sold",
+          "dur": 2.2,
+          "gain": -20
+        },
+        {
+          "name": "pop",
+          "at": "sold",
+          "offset": 0.5,
+          "gain": -13
+        }
+      ],
+      "tts_text": "Is that a lot? The last game, GTA 5, made one billion dollars in its first three days. It has sold two hundred and thirty-five million copies. And it's still selling."
+    },
+    {
+      "id": 5,
+      "name": "THE HEAD START",
+      "target": 13,
+      "narration": "And GTA 6 has a head start. One estimate puts pre-orders above 10 million copies. That's about $1 billion in sales before anyone has played it. The company's own CEO calls it unprecedented.",
+      "visual": "Night, shops closed. Armoured trucks arrive anyway and unload into the vault. The red counter climbs to about -$800,000,000.",
+      "cues": {
+        "head": {
+          "word": "head",
+          "offset": -0.2
+        },
+        "pre": {
+          "word": "above",
+          "offset": -0.2
+        },
+        "sales": {
+          "word": "thats",
+          "offset": 0.0
+        },
+        "ceo": {
+          "word": "unprecedented",
+          "offset": -0.3
+        }
+      },
+      "sfx": [
+        {
+          "name": "truck",
+          "at": "head",
+          "until": "ceo",
+          "gain": -17
+        },
+        {
+          "name": "pop",
+          "at": "pre",
+          "gain": -14
+        },
+        {
+          "name": "ticks",
+          "at": "sales",
+          "dur": 3.0,
+          "gain": -16
+        },
+        {
+          "name": "tink",
+          "at": "sales",
+          "offset": 0.4,
+          "gain": -15
+        },
+        {
+          "name": "tink",
+          "at": "sales",
+          "offset": 1.2,
+          "gain": -15
+        },
+        {
+          "name": "tink",
+          "at": "sales",
+          "offset": 2.0,
+          "gain": -15
+        }
+      ],
+      "tts_text": "And GTA 6 has a head start. One estimate puts pre-orders above ten million copies. That's about one billion dollars in sales before anyone has played it. The company's own CEO calls it unprecedented."
+    },
+    {
+      "id": 6,
+      "name": "THE LAUNCH",
+      "target": 12,
+      "narration": "Then comes launch. One analyst expects 38 million copies in the first year. Another expects over $3 billion in sales. Either way, the red number turns green.",
+      "visual": "Sunrise. Every shop opens at once and coins stream to the vault from all districts. The counter races through zero and flips green. The city lights up.",
+      "cues": {
+        "launch": {
+          "word": "launch",
+          "offset": -0.2
+        },
+        "copies": {
+          "word": "38",
+          "offset": -0.15
+        },
+        "sales": {
+          "word": "over",
+          "offset": -0.1
+        },
+        "green": {
+          "word": "turns",
+          "offset": -0.15
+        }
+      },
+      "sfx": [
+        {
+          "name": "whoosh",
+          "at": "launch",
+          "gain": -14
+        },
+        {
+          "name": "rivets",
+          "at": "launch",
+          "offset": 0.3,
+          "until": "green",
+          "gain": -20
+        },
+        {
+          "name": "ticks",
+          "at": "launch",
+          "offset": 0.4,
+          "until": "green",
+          "gain": -17
+        },
+        {
+          "name": "pop",
+          "at": "copies",
+          "gain": -14
+        },
+        {
+          "name": "pop",
+          "at": "sales",
+          "gain": -14
+        },
+        {
+          "name": "snap",
+          "at": "green",
+          "offset": 0.3,
+          "gain": -9
+        },
+        {
+          "name": "pipe_clang",
+          "at": "green",
+          "offset": 0.32,
+          "gain": -15
+        }
+      ],
+      "tts_text": "Then comes launch. One analyst expects thirty-eight million copies in the first year. Another expects over three billion dollars in sales. Either way, the red number turns green."
+    },
+    {
+      "id": 7,
+      "name": "THE LONG TAIL",
+      "target": 9,
+      "narration": "And that's only the game. The online mode is projected to add around $500 million a year, for as long as people keep playing.",
+      "visual": "Apartment windows blink on across the city, each dropping a small coin toward the vault in a stream that never stops.",
+      "cues": {
+        "online": {
+          "word": "online",
+          "offset": -0.3
+        },
+        "year": {
+          "word": "around",
+          "offset": -0.1
+        },
+        "long": {
+          "word": "for",
+          "offset": 0.0
+        }
+      },
+      "sfx": [
+        {
+          "name": "ticks",
+          "at": "online",
+          "until": "end",
+          "gain": -19
+        },
+        {
+          "name": "pop",
+          "at": "year",
+          "gain": -14
+        }
+      ],
+      "tts_text": "And that's only the game. The online mode is projected to add around five hundred million dollars a year, for as long as people keep playing."
+    },
+    {
+      "id": 8,
+      "name": "THE ENDING",
+      "target": 10,
+      "narration": "The biggest estimate puts the lifetime total at $10 billion. Those are projections. The real number starts counting in {days} days.",
+      "visual": "Pull back to the whole glowing city. The counter shows '$10B?'. The calendar tile flips from {days} to {days_next}. Cut to black.",
+      "cues": {
+        "ten": {
+          "word": "at",
+          "offset": -0.1
+        },
+        "proj": {
+          "word": "those",
+          "offset": -0.1
+        },
+        "real": {
+          "word": "real",
+          "offset": -0.2
+        },
+        "flip": {
+          "word": "days",
+          "offset": 0.25
+        }
+      },
+      "sfx": [
+        {
+          "name": "sweep",
+          "at": "start",
+          "dur": 2.4,
+          "gain": -20
+        },
+        {
+          "name": "pop",
+          "at": "ten",
+          "offset": 0.2,
+          "gain": -12
+        },
+        {
+          "name": "whoosh",
+          "at": "flip",
+          "gain": -14
+        },
+        {
+          "name": "snap",
+          "at": "flip",
+          "offset": 0.3,
+          "gain": -11
+        }
+      ],
+      "tts_text": "The biggest estimate puts the lifetime total at ten billion dollars. Those are projections. The real number starts counting in {days_words} days."
+    }
+  ]
+}

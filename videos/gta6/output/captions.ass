@@ -1,0 +1,218 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,112,&H00F4F6F8,&H00F4F6F8,&H00140E0A,&HA0000000,0,0,0,0,100,100,1,0,1,9,4,5,110,150,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.82,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}ROCKSTAR{\c&HF4F6F8&\fscx100\fscy100} HAS
+Dialogue: 0,0:00:00.82,0:00:01.08,Cap,,0,0,0,,{\an5\pos(520,1330)}ROCKSTAR {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}HAS{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:01.08,0:00:01.36,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}SPENT{\c&HF4F6F8&\fscx100\fscy100} AN
+Dialogue: 0,0:00:01.36,0:00:01.54,Cap,,0,0,0,,{\an5\pos(520,1330)}SPENT {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}AN{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:01.54,0:00:02.12,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}ESTIMATED{\c&HF4F6F8&\fscx100\fscy100} $1.5
+Dialogue: 0,0:00:02.12,0:00:02.98,Cap,,0,0,0,,{\an5\pos(520,1330)}ESTIMATED {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}$1.5{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:02.98,0:00:03.68,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}BILLION{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:03.92,0:00:04.42,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}BUILDING{\c&HF4F6F8&\fscx100\fscy100} GTA
+Dialogue: 0,0:00:04.42,0:00:05.04,Cap,,0,0,0,,{\an5\pos(520,1330)}BUILDING {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}GTA{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:05.04,0:00:05.90,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}6.{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:06.16,0:00:06.42,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}IT'S{\c&HF4F6F8&\fscx100\fscy100} BEEN 13
+Dialogue: 0,0:00:06.42,0:00:06.60,Cap,,0,0,0,,{\an5\pos(520,1330)}IT'S {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}BEEN{\c&HF4F6F8&\fscx100\fscy100} 13
+Dialogue: 0,0:00:06.60,0:00:07.18,Cap,,0,0,0,,{\an5\pos(520,1330)}IT'S BEEN {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}13{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:07.18,0:00:07.62,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}YEARS{\c&HF4F6F8&\fscx100\fscy100} SINCE
+Dialogue: 0,0:00:07.62,0:00:07.92,Cap,,0,0,0,,{\an5\pos(520,1330)}YEARS {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}SINCE{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:07.92,0:00:08.12,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}THE{\c&HF4F6F8&\fscx100\fscy100} LAST ONE.
+Dialogue: 0,0:00:08.12,0:00:08.40,Cap,,0,0,0,,{\an5\pos(520,1330)}THE {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}LAST{\c&HF4F6F8&\fscx100\fscy100} ONE.
+Dialogue: 0,0:00:08.40,0:00:09.08,Cap,,0,0,0,,{\an5\pos(520,1330)}THE LAST {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}ONE.{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:09.12,0:00:09.30,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}AND{\c&HF4F6F8&\fscx100\fscy100} IT COMES
+Dialogue: 0,0:00:09.30,0:00:09.42,Cap,,0,0,0,,{\an5\pos(520,1330)}AND {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}IT{\c&HF4F6F8&\fscx100\fscy100} COMES
+Dialogue: 0,0:00:09.42,0:00:09.62,Cap,,0,0,0,,{\an5\pos(520,1330)}AND IT {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}COMES{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:09.62,0:00:09.94,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}OUT{\c&HF4F6F8&\fscx100\fscy100} IN 7
+Dialogue: 0,0:00:09.94,0:00:10.18,Cap,,0,0,0,,{\an5\pos(520,1330)}OUT {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}IN{\c&HF4F6F8&\fscx100\fscy100} 7
+Dialogue: 0,0:00:10.18,0:00:10.48,Cap,,0,0,0,,{\an5\pos(520,1330)}OUT IN {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}7{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:10.48,0:00:11.14,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}DAYS.{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:11.46,0:00:11.66,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}SO{\c&HF4F6F8&\fscx100\fscy100} HOW DO
+Dialogue: 0,0:00:11.66,0:00:11.90,Cap,,0,0,0,,{\an5\pos(520,1330)}SO {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}HOW{\c&HF4F6F8&\fscx100\fscy100} DO
+Dialogue: 0,0:00:11.90,0:00:12.08,Cap,,0,0,0,,{\an5\pos(520,1330)}SO HOW {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}DO{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:12.08,0:00:12.20,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}THEY{\c&HF4F6F8&\fscx100\fscy100} MAKE THAT
+Dialogue: 0,0:00:12.20,0:00:12.44,Cap,,0,0,0,,{\an5\pos(520,1330)}THEY {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}MAKE{\c&HF4F6F8&\fscx100\fscy100} THAT
+Dialogue: 0,0:00:12.44,0:00:12.68,Cap,,0,0,0,,{\an5\pos(520,1330)}THEY MAKE {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}THAT{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:12.68,0:00:12.96,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}MONEY{\c&HF4F6F8&\fscx100\fscy100} BACK?
+Dialogue: 0,0:00:12.96,0:00:13.52,Cap,,0,0,0,,{\an5\pos(520,1330)}MONEY {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}BACK?{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:13.52,0:00:13.76,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}START{\c&HF4F6F8&\fscx100\fscy100} WITH THE
+Dialogue: 0,0:00:13.76,0:00:13.96,Cap,,0,0,0,,{\an5\pos(520,1330)}START {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}WITH{\c&HF4F6F8&\fscx100\fscy100} THE
+Dialogue: 0,0:00:13.96,0:00:14.10,Cap,,0,0,0,,{\an5\pos(520,1330)}START WITH {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}THE{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:14.10,0:00:14.78,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}PRICE.{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:15.04,0:00:15.32,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}$80{\c&HF4F6F8&\fscx100\fscy100} A COPY.
+Dialogue: 0,0:00:15.32,0:00:15.88,Cap,,0,0,0,,{\an5\pos(520,1330)}$80 {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}A{\c&HF4F6F8&\fscx100\fscy100} COPY.
+Dialogue: 0,0:00:15.88,0:00:16.64,Cap,,0,0,0,,{\an5\pos(520,1330)}$80 A {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}COPY.{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:16.70,0:00:16.96,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}BUT{\c&HF4F6F8&\fscx100\fscy100} THE STORE
+Dialogue: 0,0:00:16.96,0:00:17.12,Cap,,0,0,0,,{\an5\pos(520,1330)}BUT {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}THE{\c&HF4F6F8&\fscx100\fscy100} STORE
+Dialogue: 0,0:00:17.12,0:00:17.42,Cap,,0,0,0,,{\an5\pos(520,1330)}BUT THE {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}STORE{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:17.42,0:00:17.68,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}THAT{\c&HF4F6F8&\fscx100\fscy100} SELLS IT
+Dialogue: 0,0:00:17.68,0:00:18.00,Cap,,0,0,0,,{\an5\pos(520,1330)}THAT {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}SELLS{\c&HF4F6F8&\fscx100\fscy100} IT
+Dialogue: 0,0:00:18.00,0:00:18.26,Cap,,0,0,0,,{\an5\pos(520,1330)}THAT SELLS {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}IT{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:18.26,0:00:18.52,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}KEEPS{\c&HF4F6F8&\fscx100\fscy100} A CUT,
+Dialogue: 0,0:00:18.52,0:00:18.74,Cap,,0,0,0,,{\an5\pos(520,1330)}KEEPS {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}A{\c&HF4F6F8&\fscx100\fscy100} CUT,
+Dialogue: 0,0:00:18.74,0:00:19.30,Cap,,0,0,0,,{\an5\pos(520,1330)}KEEPS A {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}CUT,{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:19.42,0:00:19.58,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}AROUND{\c&HF4F6F8&\fscx100\fscy100} 30
+Dialogue: 0,0:00:19.58,0:00:20.62,Cap,,0,0,0,,{\an5\pos(520,1330)}AROUND {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}30{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:20.62,0:00:21.18,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}SO{\c&HF4F6F8&\fscx100\fscy100} ROCKSTAR'S
+Dialogue: 0,0:00:21.18,0:00:21.96,Cap,,0,0,0,,{\an5\pos(520,1330)}SO {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}ROCKSTAR'S{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:21.96,0:00:22.28,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}SIDE{\c&HF4F6F8&\fscx100\fscy100} SEES
+Dialogue: 0,0:00:22.28,0:00:22.72,Cap,,0,0,0,,{\an5\pos(520,1330)}SIDE {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}SEES{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:22.72,0:00:23.10,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}ABOUT{\c&HF4F6F8&\fscx100\fscy100} $56.
+Dialogue: 0,0:00:23.10,0:00:24.12,Cap,,0,0,0,,{\an5\pos(520,1330)}ABOUT {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}$56.{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:24.52,0:00:24.80,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}WHICH{\c&HF4F6F8&\fscx100\fscy100} MEANS
+Dialogue: 0,0:00:24.80,0:00:25.12,Cap,,0,0,0,,{\an5\pos(520,1330)}WHICH {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}MEANS{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:25.12,0:00:25.40,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}THEY{\c&HF4F6F8&\fscx100\fscy100} NEED TO
+Dialogue: 0,0:00:25.40,0:00:25.62,Cap,,0,0,0,,{\an5\pos(520,1330)}THEY {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}NEED{\c&HF4F6F8&\fscx100\fscy100} TO
+Dialogue: 0,0:00:25.62,0:00:25.84,Cap,,0,0,0,,{\an5\pos(520,1330)}THEY NEED {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}TO{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:25.84,0:00:26.08,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}SELL{\c&HF4F6F8&\fscx100\fscy100} ABOUT 27
+Dialogue: 0,0:00:26.08,0:00:26.46,Cap,,0,0,0,,{\an5\pos(520,1330)}SELL {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}ABOUT{\c&HF4F6F8&\fscx100\fscy100} 27
+Dialogue: 0,0:00:26.46,0:00:27.28,Cap,,0,0,0,,{\an5\pos(520,1330)}SELL ABOUT {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}27{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:27.28,0:00:27.74,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}MILLION{\c&HF4F6F8&\fscx100\fscy100} COPIES
+Dialogue: 0,0:00:27.74,0:00:28.32,Cap,,0,0,0,,{\an5\pos(520,1330)}MILLION {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}COPIES{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:28.32,0:00:29.08,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}JUST{\c&HF4F6F8&\fscx100\fscy100} TO GET
+Dialogue: 0,0:00:29.08,0:00:29.32,Cap,,0,0,0,,{\an5\pos(520,1330)}JUST {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}TO{\c&HF4F6F8&\fscx100\fscy100} GET
+Dialogue: 0,0:00:29.32,0:00:29.44,Cap,,0,0,0,,{\an5\pos(520,1330)}JUST TO {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}GET{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:29.44,0:00:29.72,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}BACK{\c&HF4F6F8&\fscx100\fscy100} TO ZERO.
+Dialogue: 0,0:00:29.72,0:00:29.94,Cap,,0,0,0,,{\an5\pos(520,1330)}BACK {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}TO{\c&HF4F6F8&\fscx100\fscy100} ZERO.
+Dialogue: 0,0:00:29.94,0:00:30.52,Cap,,0,0,0,,{\an5\pos(520,1330)}BACK TO {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}ZERO.{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:30.60,0:00:30.68,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}IS{\c&HF4F6F8&\fscx100\fscy100} THAT A
+Dialogue: 0,0:00:30.68,0:00:30.90,Cap,,0,0,0,,{\an5\pos(520,1330)}IS {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}THAT{\c&HF4F6F8&\fscx100\fscy100} A
+Dialogue: 0,0:00:30.90,0:00:31.04,Cap,,0,0,0,,{\an5\pos(520,1330)}IS THAT {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}A{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:31.04,0:00:31.62,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}LOT?{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:31.94,0:00:32.04,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}THE{\c&HF4F6F8&\fscx100\fscy100} LAST GAME,
+Dialogue: 0,0:00:32.04,0:00:32.32,Cap,,0,0,0,,{\an5\pos(520,1330)}THE {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}LAST{\c&HF4F6F8&\fscx100\fscy100} GAME,
+Dialogue: 0,0:00:32.32,0:00:33.04,Cap,,0,0,0,,{\an5\pos(520,1330)}THE LAST {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}GAME,{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:33.04,0:00:33.30,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}GTA{\c&HF4F6F8&\fscx100\fscy100} 5,
+Dialogue: 0,0:00:33.30,0:00:34.08,Cap,,0,0,0,,{\an5\pos(520,1330)}GTA {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}5,{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:34.08,0:00:34.30,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}MADE{\c&HF4F6F8&\fscx100\fscy100} $1
+Dialogue: 0,0:00:34.30,0:00:34.60,Cap,,0,0,0,,{\an5\pos(520,1330)}MADE {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}$1{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:34.60,0:00:35.32,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}BILLION{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:35.52,0:00:35.74,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}IN{\c&HF4F6F8&\fscx100\fscy100} ITS FIRST
+Dialogue: 0,0:00:35.74,0:00:35.88,Cap,,0,0,0,,{\an5\pos(520,1330)}IN {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}ITS{\c&HF4F6F8&\fscx100\fscy100} FIRST
+Dialogue: 0,0:00:35.88,0:00:36.14,Cap,,0,0,0,,{\an5\pos(520,1330)}IN ITS {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}FIRST{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:36.14,0:00:36.48,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}THREE{\c&HF4F6F8&\fscx100\fscy100} DAYS.
+Dialogue: 0,0:00:36.48,0:00:37.24,Cap,,0,0,0,,{\an5\pos(520,1330)}THREE {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}DAYS.{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:37.46,0:00:37.56,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}IT{\c&HF4F6F8&\fscx100\fscy100} HAS SOLD
+Dialogue: 0,0:00:37.56,0:00:37.72,Cap,,0,0,0,,{\an5\pos(520,1330)}IT {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}HAS{\c&HF4F6F8&\fscx100\fscy100} SOLD
+Dialogue: 0,0:00:37.72,0:00:38.02,Cap,,0,0,0,,{\an5\pos(520,1330)}IT HAS {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}SOLD{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:38.02,0:00:39.20,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}235{\c&HF4F6F8&\fscx100\fscy100} MILLION
+Dialogue: 0,0:00:39.20,0:00:40.02,Cap,,0,0,0,,{\an5\pos(520,1330)}235 {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}MILLION{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:40.02,0:00:40.92,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}COPIES.{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:41.10,0:00:41.34,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}AND{\c&HF4F6F8&\fscx100\fscy100} IT'S STILL
+Dialogue: 0,0:00:41.34,0:00:41.52,Cap,,0,0,0,,{\an5\pos(520,1330)}AND {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}IT'S{\c&HF4F6F8&\fscx100\fscy100} STILL
+Dialogue: 0,0:00:41.52,0:00:41.72,Cap,,0,0,0,,{\an5\pos(520,1330)}AND IT'S {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}STILL{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:41.72,0:00:42.48,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}SELLING.{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:42.48,0:00:42.60,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}AND{\c&HF4F6F8&\fscx100\fscy100} GTA 6
+Dialogue: 0,0:00:42.60,0:00:43.16,Cap,,0,0,0,,{\an5\pos(520,1330)}AND {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}GTA{\c&HF4F6F8&\fscx100\fscy100} 6
+Dialogue: 0,0:00:43.16,0:00:43.56,Cap,,0,0,0,,{\an5\pos(520,1330)}AND GTA {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}6{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:43.56,0:00:43.86,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}HAS{\c&HF4F6F8&\fscx100\fscy100} A HEAD
+Dialogue: 0,0:00:43.86,0:00:44.02,Cap,,0,0,0,,{\an5\pos(520,1330)}HAS {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}A{\c&HF4F6F8&\fscx100\fscy100} HEAD
+Dialogue: 0,0:00:44.02,0:00:44.18,Cap,,0,0,0,,{\an5\pos(520,1330)}HAS A {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}HEAD{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:44.18,0:00:44.88,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}START.{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:45.24,0:00:45.52,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}ONE{\c&HF4F6F8&\fscx100\fscy100} ESTIMATE
+Dialogue: 0,0:00:45.52,0:00:45.92,Cap,,0,0,0,,{\an5\pos(520,1330)}ONE {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}ESTIMATE{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:45.92,0:00:46.28,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}PUTS{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:46.28,0:00:46.88,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}PRE-ORDERS{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:46.88,0:00:47.26,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}ABOVE{\c&HF4F6F8&\fscx100\fscy100} 10
+Dialogue: 0,0:00:47.26,0:00:47.70,Cap,,0,0,0,,{\an5\pos(520,1330)}ABOVE {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}10{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:47.70,0:00:48.02,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}MILLION{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:48.02,0:00:48.98,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}COPIES.{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:49.22,0:00:49.58,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}THAT'S{\c&HF4F6F8&\fscx100\fscy100} ABOUT
+Dialogue: 0,0:00:49.58,0:00:49.82,Cap,,0,0,0,,{\an5\pos(520,1330)}THAT'S {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}ABOUT{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:49.82,0:00:50.28,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}$1{\c&HF4F6F8&\fscx100\fscy100} BILLION
+Dialogue: 0,0:00:50.28,0:00:51.04,Cap,,0,0,0,,{\an5\pos(520,1330)}$1 {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}BILLION{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:51.24,0:00:51.52,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}IN{\c&HF4F6F8&\fscx100\fscy100} SALES
+Dialogue: 0,0:00:51.52,0:00:51.90,Cap,,0,0,0,,{\an5\pos(520,1330)}IN {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}SALES{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:51.90,0:00:52.34,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}BEFORE{\c&HF4F6F8&\fscx100\fscy100} ANYONE
+Dialogue: 0,0:00:52.34,0:00:52.68,Cap,,0,0,0,,{\an5\pos(520,1330)}BEFORE {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}ANYONE{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:52.68,0:00:52.96,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}HAS{\c&HF4F6F8&\fscx100\fscy100} PLAYED IT.
+Dialogue: 0,0:00:52.96,0:00:53.22,Cap,,0,0,0,,{\an5\pos(520,1330)}HAS {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}PLAYED{\c&HF4F6F8&\fscx100\fscy100} IT.
+Dialogue: 0,0:00:53.22,0:00:53.80,Cap,,0,0,0,,{\an5\pos(520,1330)}HAS PLAYED {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}IT.{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:53.92,0:00:54.18,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}THE{\c&HF4F6F8&\fscx100\fscy100} COMPANY'S
+Dialogue: 0,0:00:54.18,0:00:54.68,Cap,,0,0,0,,{\an5\pos(520,1330)}THE {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}COMPANY'S{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:54.68,0:00:55.00,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}OWN{\c&HF4F6F8&\fscx100\fscy100} CEO CALLS
+Dialogue: 0,0:00:55.00,0:00:55.48,Cap,,0,0,0,,{\an5\pos(520,1330)}OWN {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}CEO{\c&HF4F6F8&\fscx100\fscy100} CALLS
+Dialogue: 0,0:00:55.48,0:00:56.08,Cap,,0,0,0,,{\an5\pos(520,1330)}OWN CEO {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}CALLS{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:56.08,0:00:56.34,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}IT{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:56.34,0:00:56.96,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}UNPRECEDENTED.{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:56.96,0:00:57.60,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}THEN{\c&HF4F6F8&\fscx100\fscy100} COMES
+Dialogue: 0,0:00:57.60,0:00:57.98,Cap,,0,0,0,,{\an5\pos(520,1330)}THEN {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}COMES{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:57.98,0:00:58.74,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}LAUNCH.{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:59.16,0:00:59.28,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}ONE{\c&HF4F6F8&\fscx100\fscy100} ANALYST
+Dialogue: 0,0:00:59.28,0:00:59.86,Cap,,0,0,0,,{\an5\pos(520,1330)}ONE {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}ANALYST{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:00:59.86,0:01:00.36,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}EXPECTS{\c&HF4F6F8&\fscx100\fscy100} 38
+Dialogue: 0,0:01:00.36,0:01:00.96,Cap,,0,0,0,,{\an5\pos(520,1330)}EXPECTS {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}38{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:00.96,0:01:01.58,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}MILLION{\c&HF4F6F8&\fscx100\fscy100} COPIES
+Dialogue: 0,0:01:01.58,0:01:02.04,Cap,,0,0,0,,{\an5\pos(520,1330)}MILLION {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}COPIES{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:02.04,0:01:02.30,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}IN{\c&HF4F6F8&\fscx100\fscy100} THE FIRST
+Dialogue: 0,0:01:02.30,0:01:02.44,Cap,,0,0,0,,{\an5\pos(520,1330)}IN {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}THE{\c&HF4F6F8&\fscx100\fscy100} FIRST
+Dialogue: 0,0:01:02.44,0:01:02.64,Cap,,0,0,0,,{\an5\pos(520,1330)}IN THE {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}FIRST{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:02.64,0:01:03.34,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}YEAR.{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:03.54,0:01:03.76,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}ANOTHER{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:03.76,0:01:04.30,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}EXPECTS{\c&HF4F6F8&\fscx100\fscy100} OVER
+Dialogue: 0,0:01:04.30,0:01:04.62,Cap,,0,0,0,,{\an5\pos(520,1330)}EXPECTS {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}OVER{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:04.62,0:01:05.00,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}$3{\c&HF4F6F8&\fscx100\fscy100} BILLION
+Dialogue: 0,0:01:05.00,0:01:05.60,Cap,,0,0,0,,{\an5\pos(520,1330)}$3 {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}BILLION{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:05.86,0:01:06.12,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}IN{\c&HF4F6F8&\fscx100\fscy100} SALES.
+Dialogue: 0,0:01:06.12,0:01:06.88,Cap,,0,0,0,,{\an5\pos(520,1330)}IN {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}SALES.{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:07.22,0:01:07.36,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}EITHER{\c&HF4F6F8&\fscx100\fscy100} WAY,
+Dialogue: 0,0:01:07.36,0:01:07.96,Cap,,0,0,0,,{\an5\pos(520,1330)}EITHER {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}WAY,{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:07.96,0:01:08.06,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}THE{\c&HF4F6F8&\fscx100\fscy100} RED NUMBER
+Dialogue: 0,0:01:08.06,0:01:08.26,Cap,,0,0,0,,{\an5\pos(520,1330)}THE {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}RED{\c&HF4F6F8&\fscx100\fscy100} NUMBER
+Dialogue: 0,0:01:08.26,0:01:08.62,Cap,,0,0,0,,{\an5\pos(520,1330)}THE RED {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}NUMBER{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:08.62,0:01:09.08,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}TURNS{\c&HF4F6F8&\fscx100\fscy100} GREEN.
+Dialogue: 0,0:01:09.08,0:01:09.84,Cap,,0,0,0,,{\an5\pos(520,1330)}TURNS {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}GREEN.{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:09.86,0:01:09.96,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}AND{\c&HF4F6F8&\fscx100\fscy100} THAT'S
+Dialogue: 0,0:01:09.96,0:01:10.22,Cap,,0,0,0,,{\an5\pos(520,1330)}AND {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}THAT'S{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:10.22,0:01:10.56,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}ONLY{\c&HF4F6F8&\fscx100\fscy100} THE GAME.
+Dialogue: 0,0:01:10.56,0:01:10.76,Cap,,0,0,0,,{\an5\pos(520,1330)}ONLY {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}THE{\c&HF4F6F8&\fscx100\fscy100} GAME.
+Dialogue: 0,0:01:10.76,0:01:11.40,Cap,,0,0,0,,{\an5\pos(520,1330)}ONLY THE {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}GAME.{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:11.74,0:01:11.92,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}THE{\c&HF4F6F8&\fscx100\fscy100} ONLINE
+Dialogue: 0,0:01:11.92,0:01:12.34,Cap,,0,0,0,,{\an5\pos(520,1330)}THE {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}ONLINE{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:12.34,0:01:12.80,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}MODE{\c&HF4F6F8&\fscx100\fscy100} IS
+Dialogue: 0,0:01:12.80,0:01:13.00,Cap,,0,0,0,,{\an5\pos(520,1330)}MODE {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}IS{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:13.00,0:01:13.42,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}PROJECTED{\c&HF4F6F8&\fscx100\fscy100} TO
+Dialogue: 0,0:01:13.42,0:01:13.72,Cap,,0,0,0,,{\an5\pos(520,1330)}PROJECTED {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}TO{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:13.72,0:01:14.06,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}ADD{\c&HF4F6F8&\fscx100\fscy100} AROUND
+Dialogue: 0,0:01:14.06,0:01:14.42,Cap,,0,0,0,,{\an5\pos(520,1330)}ADD {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}AROUND{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:14.42,0:01:15.06,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}$500{\c&HF4F6F8&\fscx100\fscy100} MILLION
+Dialogue: 0,0:01:15.06,0:01:15.90,Cap,,0,0,0,,{\an5\pos(520,1330)}$500 {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}MILLION{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:16.10,0:01:16.34,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}A{\c&HF4F6F8&\fscx100\fscy100} YEAR,
+Dialogue: 0,0:01:16.34,0:01:16.96,Cap,,0,0,0,,{\an5\pos(520,1330)}A {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}YEAR,{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:17.02,0:01:17.24,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}FOR{\c&HF4F6F8&\fscx100\fscy100} AS LONG
+Dialogue: 0,0:01:17.24,0:01:17.38,Cap,,0,0,0,,{\an5\pos(520,1330)}FOR {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}AS{\c&HF4F6F8&\fscx100\fscy100} LONG
+Dialogue: 0,0:01:17.38,0:01:17.60,Cap,,0,0,0,,{\an5\pos(520,1330)}FOR AS {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}LONG{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:17.60,0:01:17.82,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}AS{\c&HF4F6F8&\fscx100\fscy100} PEOPLE KEEP
+Dialogue: 0,0:01:17.82,0:01:18.06,Cap,,0,0,0,,{\an5\pos(520,1330)}AS {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}PEOPLE{\c&HF4F6F8&\fscx100\fscy100} KEEP
+Dialogue: 0,0:01:18.06,0:01:18.42,Cap,,0,0,0,,{\an5\pos(520,1330)}AS PEOPLE {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}KEEP{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:18.42,0:01:19.08,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}PLAYING.{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:19.08,0:01:19.20,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}THE{\c&HF4F6F8&\fscx100\fscy100} BIGGEST
+Dialogue: 0,0:01:19.20,0:01:19.54,Cap,,0,0,0,,{\an5\pos(520,1330)}THE {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}BIGGEST{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:19.54,0:01:20.04,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}ESTIMATE{\c&HF4F6F8&\fscx100\fscy100} PUTS
+Dialogue: 0,0:01:20.04,0:01:20.30,Cap,,0,0,0,,{\an5\pos(520,1330)}ESTIMATE {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}PUTS{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:20.30,0:01:20.52,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}THE{\c&HF4F6F8&\fscx100\fscy100} LIFETIME
+Dialogue: 0,0:01:20.52,0:01:21.04,Cap,,0,0,0,,{\an5\pos(520,1330)}THE {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}LIFETIME{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:21.04,0:01:21.42,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}TOTAL{\c&HF4F6F8&\fscx100\fscy100} AT $10
+Dialogue: 0,0:01:21.42,0:01:21.72,Cap,,0,0,0,,{\an5\pos(520,1330)}TOTAL {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}AT{\c&HF4F6F8&\fscx100\fscy100} $10
+Dialogue: 0,0:01:21.72,0:01:22.02,Cap,,0,0,0,,{\an5\pos(520,1330)}TOTAL AT {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}$10{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:22.02,0:01:22.66,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}BILLION.{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:23.02,0:01:23.82,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}THOSE{\c&HF4F6F8&\fscx100\fscy100} ARE
+Dialogue: 0,0:01:23.82,0:01:24.20,Cap,,0,0,0,,{\an5\pos(520,1330)}THOSE {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}ARE{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:24.20,0:01:25.06,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}PROJECTIONS.{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:25.52,0:01:25.62,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}THE{\c&HF4F6F8&\fscx100\fscy100} REAL
+Dialogue: 0,0:01:25.62,0:01:25.92,Cap,,0,0,0,,{\an5\pos(520,1330)}THE {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}REAL{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:25.92,0:01:26.24,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}NUMBER{\c&HF4F6F8&\fscx100\fscy100} STARTS
+Dialogue: 0,0:01:26.24,0:01:26.60,Cap,,0,0,0,,{\an5\pos(520,1330)}NUMBER {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}STARTS{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:26.60,0:01:27.08,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}COUNTING{\c&HF4F6F8&\fscx100\fscy100} IN 7
+Dialogue: 0,0:01:27.08,0:01:27.40,Cap,,0,0,0,,{\an5\pos(520,1330)}COUNTING {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}IN{\c&HF4F6F8&\fscx100\fscy100} 7
+Dialogue: 0,0:01:27.40,0:01:27.66,Cap,,0,0,0,,{\an5\pos(520,1330)}COUNTING IN {\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}7{\c&HF4F6F8&\fscx100\fscy100}
+Dialogue: 0,0:01:27.66,0:01:28.34,Cap,,0,0,0,,{\an5\pos(520,1330)}{\c&H5AA6F2&\fscx112\fscy112\t(0,90,\fscx104\fscy104)}DAYS.{\c&HF4F6F8&\fscx100\fscy100}

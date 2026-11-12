@@ -16,8 +16,19 @@ def video_dir(vid):
     return d
 
 
+def apply_vars(s):
+    """Fill {name} placeholders in narration/visual text from the script's "vars" (e.g. a countdown)."""
+    v = s.get("vars") or {}
+    for shot in s["shots"]:
+        for k in ("narration", "visual", "tts_text"):
+            if k in shot:
+                for name, val in v.items():
+                    shot[k] = shot[k].replace("{" + name + "}", str(val))
+    return s
+
+
 def load_script(vid):
-    return json.loads((video_dir(vid) / "script.json").read_text())
+    return apply_vars(json.loads((video_dir(vid) / "script.json").read_text()))
 
 
 def build_dir(vid):
